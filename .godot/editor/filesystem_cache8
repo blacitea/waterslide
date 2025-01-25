@@ -1,4 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737776960
+::res://::1737778412
 icon.svg::CompressedTexture2D::1181490410995503933::1737776496::1737776961::1::::<><>::
+mr7.png::CompressedTexture2D::9158646417943993372::1736629372::1737778421::1::::<><>::
 README.md::TextFile::-1::1737776787::0::1::::<><>::
+character_body_2d.gd::GDScript::-1::1737778215::0::1::::<>CharacterBody2D<>::
+main.tscn::PackedScene::6851060213090814164::1737778215::0::1::::<><>::res://character_body_2d.gd

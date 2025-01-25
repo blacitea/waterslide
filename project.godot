@@ -13,3 +13,10 @@ config_version=5
 config/name="Water Slide"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
+
+[input]
+
+left_click={
+"deadzone": 0.5,
+"events": []
+}
