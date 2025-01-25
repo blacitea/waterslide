@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://g2pxxes8sdb6"]
+
+[ext_resource type="Texture2D" uid="uid://c1ue4nt0roh7u" path="res://background.jpg" id="1_qmbbs"]
+
+[node name="Background" type="Node2D"]
+
+[node name="Parallax2D" type="Parallax2D" parent="."]
+texture_filter = 1
+repeat_size = Vector2(3600, 0)
+autoscroll = Vector2(20, 0)
+repeat_times = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D"]
+position = Vector2(712, 920)
+scale = Vector2(3.64029, 3.51562)
+texture = ExtResource("1_qmbbs")
+flip_h = true

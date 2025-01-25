@@ -1,15 +1,17 @@
-[gd_scene load_steps=8 format=3 uid="uid://c4ux7wvun56ke"]
+[gd_scene load_steps=10 format=3 uid="uid://c4ux7wvun56ke"]
 
-[ext_resource type="Texture2D" uid="uid://d3qrtlcy2pt2s" path="res://mr7.png" id="1_lqdb2"]
+[ext_resource type="PackedScene" uid="uid://g2pxxes8sdb6" path="res://background.tscn" id="1_64fx5"]
 [ext_resource type="Script" path="res://character_body_2d_2.gd" id="2_2uunh"]
 [ext_resource type="Texture2D" uid="uid://bjs5dsaw4m5yv" path="res://traffic_cop.png" id="2_yf00v"]
 [ext_resource type="Texture2D" uid="uid://b853afhmqsg0r" path="res://sprites/FOX walk 1.png" id="3_oqogv"]
+[ext_resource type="Texture2D" uid="uid://buba3vya7dcl5" path="res://sprites/BUBBLE.png" id="4_u47ya"]
+[ext_resource type="Texture2D" uid="uid://n0u3bbdqmerh" path="res://pipe.png" id="4_wwhkh"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7iks2"]
 size = Vector2(223.6, 195.423)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_deqo4"]
-size = Vector2(600.011, 98.3871)
+size = Vector2(607.154, 23.3751)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yixas"]
 size = Vector2(157.989, 336.983)
@@ -24,6 +26,14 @@ rotation = -3.14159
 scale = Vector2(0.910444, -0.642495)
 script = ExtResource("2_2uunh")
 
+[node name="Camera2D" type="Camera2D" parent="fox"]
+y_sort_enabled = true
+position = Vector2(3.60813, 1.71857)
+scale = Vector2(1, 1)
+
+[node name="Background" parent="fox/Camera2D" instance=ExtResource("1_64fx5")]
+position = Vector2(-2035.62, -1338.75)
+
 [node name="Sprite2D" type="Sprite2D" parent="fox"]
 position = Vector2(-12.987, 7.64463)
 rotation = -0.0187955
@@ -32,29 +42,31 @@ texture = ExtResource("3_oqogv")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="fox"]
 position = Vector2(3.60814, 1.31267)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_7iks2")
 
-[node name="Camera2D" type="Camera2D" parent="fox"]
-position = Vector2(3.60811, 1.71864)
+[node name="Sprite2D2" type="Sprite2D" parent="fox"]
+position = Vector2(-251.059, -27.2868)
+scale = Vector2(0.186116, 0.186116)
+texture = ExtResource("4_u47ya")
+flip_h = true
 
 [node name="platform" type="StaticBody2D" parent="."]
-position = Vector2(420.543, -89.8479)
+position = Vector2(3363.45, -253.473)
 metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="platform"]
 position = Vector2(253.57, 149.381)
 scale = Vector2(1.51193, 0.244708)
-texture = ExtResource("1_lqdb2")
+texture = ExtResource("4_wwhkh")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="platform"]
-position = Vector2(250.004, 134.407)
+position = Vector2(253.576, 151.938)
 shape = SubResource("RectangleShape2D_deqo4")
 one_way_collision = true
 debug_color = Color(0.183095, 0.583418, 0.73651, 0.42)
 
 [node name="enemy 1" type="CharacterBody2D" parent="."]
-position = Vector2(3070.59, -253.473)
+position = Vector2(3042.02, -218.411)
 rotation = -3.14159
 scale = Vector2(0.910444, -0.642495)
 metadata/_edit_group_ = true
@@ -67,7 +79,6 @@ texture = ExtResource("2_yf00v")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="enemy 1"]
 position = Vector2(-164.758, -9.09548)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_yixas")
 
 [node name="enemy 2" type="CharacterBody2D" parent="."]
@@ -84,11 +95,10 @@ texture = ExtResource("2_yf00v")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="enemy 2"]
 position = Vector2(-164.758, -9.09548)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_yixas")
 
 [node name="enemy 3" type="CharacterBody2D" parent="."]
-position = Vector2(1184.84, -130.754)
+position = Vector2(991.982, -230.098)
 rotation = -3.14159
 scale = Vector2(0.910444, -0.642495)
 metadata/_edit_group_ = true
@@ -101,75 +111,79 @@ texture = ExtResource("2_yf00v")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="enemy 3"]
 position = Vector2(-164.758, -9.09548)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_yixas")
 
 [node name="platform2" type="StaticBody2D" parent="."]
-position = Vector2(2820.59, -253.473)
+position = Vector2(2749.16, -259.317)
 metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="platform2"]
-position = Vector2(253.57, 140.981)
-scale = Vector2(1.51193, 0.272709)
-texture = ExtResource("1_lqdb2")
+position = Vector2(253.57, 149.381)
+scale = Vector2(1.51193, 0.244708)
+texture = ExtResource("4_wwhkh")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="platform2"]
-position = Vector2(249.998, 144.381)
+position = Vector2(253.576, 151.938)
 shape = SubResource("RectangleShape2D_deqo4")
 one_way_collision = true
+debug_color = Color(0.183095, 0.583418, 0.73651, 0.42)
 
 [node name="platform3" type="StaticBody2D" parent="."]
-position = Vector2(2220.58, -212.567)
+position = Vector2(2134.86, -265.161)
 metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="platform3"]
-position = Vector2(253.57, 140.981)
-scale = Vector2(1.51193, 0.272709)
-texture = ExtResource("1_lqdb2")
+position = Vector2(253.57, 149.381)
+scale = Vector2(1.51193, 0.244708)
+texture = ExtResource("4_wwhkh")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="platform3"]
-position = Vector2(249.998, 144.381)
+position = Vector2(253.576, 151.938)
 shape = SubResource("RectangleShape2D_deqo4")
 one_way_collision = true
+debug_color = Color(0.183095, 0.583418, 0.73651, 0.42)
 
 [node name="platform4" type="StaticBody2D" parent="."]
-position = Vector2(1620.56, -171.661)
+position = Vector2(1520.56, -276.848)
 metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="platform4"]
-position = Vector2(253.57, 140.981)
-scale = Vector2(1.51193, 0.272709)
-texture = ExtResource("1_lqdb2")
+position = Vector2(253.57, 149.381)
+scale = Vector2(1.51193, 0.244708)
+texture = ExtResource("4_wwhkh")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="platform4"]
-position = Vector2(249.998, 144.381)
+position = Vector2(253.576, 151.938)
 shape = SubResource("RectangleShape2D_deqo4")
 one_way_collision = true
+debug_color = Color(0.183095, 0.583418, 0.73651, 0.42)
 
 [node name="platform5" type="StaticBody2D" parent="."]
-position = Vector2(1020.55, -124.911)
+position = Vector2(906.266, -282.692)
 metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="platform5"]
-position = Vector2(253.57, 140.981)
-scale = Vector2(1.51193, 0.272709)
-texture = ExtResource("1_lqdb2")
+position = Vector2(253.57, 149.381)
+scale = Vector2(1.51193, 0.244708)
+texture = ExtResource("4_wwhkh")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="platform5"]
-position = Vector2(249.998, 144.381)
+position = Vector2(253.576, 151.938)
 shape = SubResource("RectangleShape2D_deqo4")
 one_way_collision = true
+debug_color = Color(0.183095, 0.583418, 0.73651, 0.42)
 
 [node name="platform6" type="StaticBody2D" parent="."]
-position = Vector2(3420.6, -288.536)
+position = Vector2(291.97, -294.38)
 metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="platform6"]
-position = Vector2(253.57, 140.981)
-scale = Vector2(1.51193, 0.272709)
-texture = ExtResource("1_lqdb2")
+position = Vector2(253.57, 149.381)
+scale = Vector2(1.51193, 0.244708)
+texture = ExtResource("4_wwhkh")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="platform6"]
-position = Vector2(249.998, 144.381)
+position = Vector2(253.576, 151.938)
 shape = SubResource("RectangleShape2D_deqo4")
 one_way_collision = true
+debug_color = Color(0.183095, 0.583418, 0.73651, 0.42)
