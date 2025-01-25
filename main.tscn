@@ -28,8 +28,10 @@ position = Vector2(72.742, 105.188)
 shape = SubResource("CircleShape2D_gxlvs")
 
 [node name="CharacterBody2D2" type="CharacterBody2D" parent="."]
-position = Vector2(25.0004, -50.4025)
+position = Vector2(513.403, -72.3166)
+scale = Vector2(-0.910444, 0.642495)
 script = ExtResource("2_2uunh")
+metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D2"]
 position = Vector2(101.089, 133.262)
@@ -40,6 +42,8 @@ texture = ExtResource("2_yf00v")
 position = Vector2(95.7299, 126.93)
 scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_7iks2")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D2"]
 
 [node name="StaticBody2D3" type="StaticBody2D" parent="."]
 position = Vector2(1308.95, -236.673)
