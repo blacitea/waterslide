@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d1frqp1c0b7lr"
-path="res://.godot/imported/top_gojo.png-b05e9caa018ecdcc05090a57b7781b42.ctex"
+uid="uid://tehkdpiq1fvg"
+path="res://.godot/imported/simple64x_tiles6.png-84cc7de8dac438f1e786531ad9f9146d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://top_gojo.png"
-dest_files=["res://.godot/imported/top_gojo.png-b05e9caa018ecdcc05090a57b7781b42.ctex"]
+source_file="res://sprites/simple64x_tiles6.png"
+dest_files=["res://.godot/imported/simple64x_tiles6.png-84cc7de8dac438f1e786531ad9f9146d.ctex"]
 
 [params]
 

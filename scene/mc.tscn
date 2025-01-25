@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3 uid="uid://c810f4moc4l47"]
+
+[ext_resource type="Script" path="res://scripts/character_body_2d_2.gd" id="1_vyaab"]
+[ext_resource type="PackedScene" uid="uid://dpcvo346vywc6" path="res://scene/blue_bubble.tscn" id="2_gpaom"]
+[ext_resource type="Texture2D" uid="uid://b853afhmqsg0r" path="res://sprites/FOX walk 1.png" id="3_j8lsq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7iks2"]
+size = Vector2(263.608, 162.409)
+
+[node name="fox" type="CharacterBody2D" node_paths=PackedStringArray("projectile_spawn")]
+position = Vector2(584.832, -218.411)
+rotation = -3.14159
+scale = Vector2(0.910444, -0.642495)
+script = ExtResource("1_vyaab")
+projectile_scene = ExtResource("2_gpaom")
+projectile_spawn = NodePath("ProjectileSpawn")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+y_sort_enabled = true
+position = Vector2(3.60813, 1.71857)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-12.9353, 10.3933)
+rotation = -0.0187955
+scale = Vector2(-0.546258, 0.431582)
+texture = ExtResource("3_j8lsq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-7.87311, -15.1946)
+shape = SubResource("RectangleShape2D_7iks2")
+
+[node name="ProjectileSpawn" type="Node2D" parent="."]
+position = Vector2(-139.677, -21.1509)

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bjs5dsaw4m5yv"
-path="res://.godot/imported/traffic_cop.png-bdc186371a6143c068d80dd51797e97a.ctex"
+uid="uid://c1ue4nt0roh7u"
+path="res://.godot/imported/background.jpg-516c7c93b38070649a337bb0d4c341c9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://traffic_cop.png"
-dest_files=["res://.godot/imported/traffic_cop.png-bdc186371a6143c068d80dd51797e97a.ctex"]
+source_file="res://sprites/background.jpg"
+dest_files=["res://.godot/imported/background.jpg-516c7c93b38070649a337bb0d4c341c9.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://n0u3bbdqmerh"
-path="res://.godot/imported/pipe.png-8b6450e58984ceca4e95639df940417c.ctex"
+uid="uid://q3k8ep3g3hqb"
+path="res://.godot/imported/icon.svg-964d8c66fbd3bda40c44ca195472a8e1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://pipe.png"
-dest_files=["res://.godot/imported/pipe.png-8b6450e58984ceca4e95639df940417c.ctex"]
+source_file="res://sprites/icon.svg"
+dest_files=["res://.godot/imported/icon.svg-964d8c66fbd3bda40c44ca195472a8e1.ctex"]
 
 [params]
 
@@ -32,3 +32,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

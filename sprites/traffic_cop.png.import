@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d3qrtlcy2pt2s"
-path="res://.godot/imported/mr7.png-d904fee78af7d5b6ced41fa971e83a09.ctex"
+uid="uid://bjs5dsaw4m5yv"
+path="res://.godot/imported/traffic_cop.png-60e648a97964381d7aaac57df5666f99.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mr7.png"
-dest_files=["res://.godot/imported/mr7.png-d904fee78af7d5b6ced41fa971e83a09.ctex"]
+source_file="res://sprites/traffic_cop.png"
+dest_files=["res://.godot/imported/traffic_cop.png-60e648a97964381d7aaac57df5666f99.ctex"]
 
 [params]
 

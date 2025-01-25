@@ -1,0 +1,39 @@
+[gd_scene load_steps=7 format=4 uid="uid://bo4ibya0uy6gx"]
+
+[ext_resource type="Texture2D" uid="uid://tehkdpiq1fvg" path="res://sprites/simple64x_tiles6.png" id="1_6l3fo"]
+[ext_resource type="PackedScene" uid="uid://pyxumq7sscb7" path="res://scene/bad.tscn" id="2_8gjc1"]
+[ext_resource type="PackedScene" uid="uid://c810f4moc4l47" path="res://scene/mc.tscn" id="3_trnjk"]
+[ext_resource type="PackedScene" uid="uid://dpcvo346vywc6" path="res://Scene/blue_bubble.tscn" id="4_ar5nb"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_sd1tw"]
+texture = ExtResource("1_6l3fo")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_rhexe"]
+tile_size = Vector2i(64, 64)
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_sd1tw")
+
+[node name="Level1" type="Node2D"]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAD9/wAAAAABAAEAAAD+/wAAAAABAAEAAAD//wAAAAABAAEAAAAAAAAAAAABAAEAAAABAAAAAAABAAEAAAACAAAAAAABAAEAAAADAAAAAAABAAEAAAAEAAEAAAABAAEAAAD9/wEAAAABAAEAAAD+/wEAAAABAAEAAAD//wEAAAABAAEAAAAAAAEAAAABAAEAAAABAAEAAAABAAEAAAACAAEAAAABAAEAAAADAAEAAAABAAEAAAAEAAIAAAABAAEAAAAFAAEAAAABAAEAAAAFAAIAAAABAAEAAAAGAAIAAAABAAEAAAAGAAMAAAABAAEAAAAHAAMAAAABAAEAAAAHAAIAAAABAAEAAAD8/wAAAAABAAEAAAD7/wAAAAABAAEAAAD7////AAABAAEAAAD7//7/AAABAAEAAAD8////AAABAAEAAAD8//7/AAABAAEAAAD6//7/AAABAAEAAAD5//7/AAABAAEAAAD5////AAABAAEAAAD4////AAABAAEAAAD4//7/AAABAAEAAAD3//7/AAABAAEAAAD6////AAABAAEAAAD3////AAABAAEAAAD2//7/AAABAAEAAAD1//7/AAABAAEAAAD0//7/AAABAAEAAADz//7/AAABAAEAAADy//7/AAABAAEAAADx//7/AAABAAEAAADx//3/AAABAAEAAADy//3/AAABAAEAAADz//3/AAABAAEAAAD0//3/AAABAAEAAAD1//3/AAABAAEAAAD2//3/AAABAAEAAAA=")
+tile_set = SubResource("TileSet_rhexe")
+
+[node name="enemy 1" parent="." instance=ExtResource("2_8gjc1")]
+position = Vector2(-64, -96)
+
+[node name="fox" parent="." instance=ExtResource("3_trnjk")]
+position = Vector2(-823.168, -250.411)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("4_ar5nb")]
