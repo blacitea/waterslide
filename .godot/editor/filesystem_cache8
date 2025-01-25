@@ -1,9 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737779586
-icon.svg::CompressedTexture2D::1181490410995503933::1737776496::1737776961::1::::<><>::
-mr7.png::CompressedTexture2D::9158646417943993372::1736629372::1737778421::1::::<><>::
-README.md::TextFile::-1::1737776787::0::1::::<><>::
-character_body_2d.gd::GDScript::-1::1737779351::0::1::::<>RefCounted<>::
-main.tscn::PackedScene::6851060213090814164::1737779351::0::1::::<><>::uid://d3qrtlcy2pt2s::::res://mr7.png
-top_gojo.png::CompressedTexture2D::8995555464157475167::1736632587::1737779503::1::::<><>::
-traffic_cop.png::CompressedTexture2D::3057106889632319917::1737779586::1737779592::1::::<><>::
+::res://::1737781873
+character_body_2d.gd::GDScript::-1::1737781866::0::1::::<>RefCounted<>::
+character_body_2d_2.gd::GDScript::-1::1737781866::0::1::::<>CharacterBody2D<>::
+icon.svg::CompressedTexture2D::1181490410995503933::1737780522::1737780656::1::::<><>::
+main.tscn::PackedScene::-1::1737781866::0::1::::<><>::
+mr7.png::CompressedTexture2D::9158646417943993372::1737781866::1737781872::1::::<><>::
+README.md::TextFile::-1::1737780522::0::1::::<><>::
+top_gojo.png::CompressedTexture2D::8995555464157475167::1737781866::1737781873::1::::<><>::
+traffic_cop.png::CompressedTexture2D::3057106889632319917::1737781866::1737781872::1::::<><>::
+::res://sprites/::1737781892
+FOX.png::CompressedTexture2D::5592205058174804812::1737781892::1737781893::1::::<><>::
+traffic cop.png::CompressedTexture2D::5605826865154046437::1737781892::1737781893::1::::<><>::
