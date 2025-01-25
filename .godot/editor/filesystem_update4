@@ -6,3 +6,6 @@ res://scene/platform_tile.tscn
 res://Scene/platform_tile.tscn
 res://scene/bad.tscn
 res://scripts/character_body_2d_2.gd
+res://scene/bad.gd
+res://scripts/blue_bubble.gd
+res://scripts/camera_2d.gd

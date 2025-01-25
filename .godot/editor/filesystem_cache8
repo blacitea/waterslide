@@ -1,23 +1,24 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737840412
+::res://::1737842016
 README.md::TextFile::-1::1737776787::0::1::::<><>::
-::res://levels/::1737840290
-level1.tscn::PackedScene::3429420232953319679::1737840290::0::1::::<><>::uid://tehkdpiq1fvg::::res://sprites/simple64x_tiles6.png<>uid://pyxumq7sscb7::::res://scene/bad.tscn<>uid://c810f4moc4l47::::res://scene/mc.tscn<>uid://dpcvo346vywc6::::res://Scene/blue_bubble.tscn
-::res://scene/::1737840391
+::res://levels/::1737842088
+level1.tscn::PackedScene::3429420232953319679::1737842088::0::1::::<><>::uid://tehkdpiq1fvg::::res://sprites/simple64x_tiles6.png<>uid://pyxumq7sscb7::::res://scene/bad.tscn<>uid://c810f4moc4l47::::res://scene/mc.tscn<>uid://dpcvo346vywc6::::res://scene/blue_bubble.tscn
+::res://scene/::1737842089
 background.tscn::PackedScene::477824304418036525::1737839869::0::1::::<><>::uid://c1ue4nt0roh7u::::res://sprites/background.jpg
-bad.tscn::PackedScene::1103810583855416826::1737840391::0::1::::<><>::uid://cl4rfc05d8r8h::::res://sprites/traffic cop.png
-blue_bubble.tscn::PackedScene::8217525036011334891::1737840290::0::1::::<><>::res://scripts/blue_bubble.gd<>uid://buba3vya7dcl5::::res://sprites/BUBBLE.png
-main.tscn::PackedScene::6851060213090814164::1737840290::0::1::::<><>::uid://c810f4moc4l47::::res://scene/mc.tscn<>uid://pyxumq7sscb7::::res://scene/bad.tscn<>uid://c2mpvy3gk54w7::::res://scene/platform_tile.tscn<>uid://bjs5dsaw4m5yv::::res://sprites/traffic_cop.png
-mc.tscn::PackedScene::7144275425190240366::1737840290::0::1::::<><>::res://scripts/character_body_2d_2.gd<>uid://dpcvo346vywc6::::res://scene/blue_bubble.tscn<>uid://b853afhmqsg0r::::res://sprites/FOX walk 1.png<>uid://bg4ljqxvrwnum::::res://Sounds/bubble spawn v1.0.wav
-platform_tile.tscn::PackedScene::6693662239327410000::1737840383::0::1::::<><>::uid://n0u3bbdqmerh::::res://sprites/pipe.png
-::res://scripts/::1737839825
-blue_bubble.gd::GDScript::-1::1737839350::0::1::::<>CharacterBody2D<>::
-camera_2d.gd::GDScript::-1::1737839350::0::1::::<>RefCounted<>::
-character_body_2d_2.gd::GDScript::-1::1737839825::0::1::::<>CharacterBody2D<>::
+bad.tscn::PackedScene::1103810583855416826::1737842162::0::1::::<><>::uid://cl4rfc05d8r8h::::res://sprites/traffic cop.png<>res://scene/bad.gd
+blue_bubble.tscn::PackedScene::8217525036011334891::1737842089::0::1::::<><>::res://scripts/blue_bubble.gd<>uid://buba3vya7dcl5::::res://sprites/BUBBLE.png
+main.tscn::PackedScene::6851060213090814164::1737842088::0::1::::<><>::uid://c810f4moc4l47::::res://scene/mc.tscn<>uid://pyxumq7sscb7::::res://scene/bad.tscn<>uid://c2mpvy3gk54w7::::res://scene/platform_tile.tscn<>uid://bjs5dsaw4m5yv::::res://sprites/traffic_cop.png
+mc.tscn::PackedScene::7144275425190240366::1737842088::0::1::::<><>::res://scripts/character_body_2d_2.gd<>uid://dpcvo346vywc6::::res://scene/blue_bubble.tscn<>uid://b853afhmqsg0r::::res://sprites/FOX walk 1.png<>uid://bg4ljqxvrwnum::::res://Sounds/bubble spawn v1.0.wav
+platform_tile.tscn::PackedScene::6693662239327410000::1737840805::0::1::::<><>::uid://n0u3bbdqmerh::::res://sprites/pipe.png
+bad.gd::GDScript::-1::1737842042::0::1::::<>CharacterBody2D<>::
+::res://scripts/::1737842086
+blue_bubble.gd::GDScript::-1::1737842086::0::1::::<>CharacterBody2D<>::
+camera_2d.gd::GDScript::-1::1737842012::0::1::::<>RefCounted<>::
+character_body_2d_2.gd::GDScript::-1::1737842012::0::1::::<>CharacterBody2D<>::
 ::res://Sounds/::1737839343
 bubble spawn v1.0.wav::AudioStreamWAV::2868105536336449928::1737839291::1737839343::1::::<><>::
 waterfall ost temp.mp3::AudioStreamMP3::4324077724695723510::1737839291::1737839343::1::::<><>::
-::res://sprites/::1737839343
+::res://sprites/::1737842001
 background.jpg::CompressedTexture2D::6639334226364546000::1737839311::1737839343::1::::<><>::
 BUBBLE.png::CompressedTexture2D::3792313076545687988::1737783861::1737783904::1::::<><>::
 BUBBLEBROWN.png::CompressedTexture2D::2534548369612520159::1737783861::1737783904::1::::<><>::
@@ -27,5 +28,6 @@ FOX.png::CompressedTexture2D::5592205058174804812::1737782699::1737782723::1::::
 icon.svg::CompressedTexture2D::1181490410995503933::1737839311::1737839343::1::::<><>::
 pipe.png::CompressedTexture2D::965328807456900825::1737839311::1737839343::1::::<><>::
 simple64x_tiles6.png::CompressedTexture2D::1342288598155278452::1737839311::1737839343::1::::<><>::
+traffic cop bubbled.png::CompressedTexture2D::4551155108475761474::1737841991::1737842001::1::::<><>::
 traffic cop.png::CompressedTexture2D::5605826865154046437::1737782699::1737782723::1::::<><>::
 traffic_cop.png::CompressedTexture2D::3057106889632319917::1737839311::1737839343::1::::<><>::

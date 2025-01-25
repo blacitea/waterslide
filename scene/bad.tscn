@@ -1,22 +1,35 @@
-[gd_scene load_steps=3 format=3 uid="uid://pyxumq7sscb7"]
+[gd_scene load_steps=5 format=3 uid="uid://pyxumq7sscb7"]
 
 [ext_resource type="Texture2D" uid="uid://cl4rfc05d8r8h" path="res://sprites/traffic cop.png" id="1_ib371"]
+[ext_resource type="Script" path="res://bad.gd" id="1_k885w"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yixas"]
 size = Vector2(157.989, 336.983)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x7884"]
+size = Vector2(155.476, 328.738)
+
 [node name="enemy 1" type="CharacterBody2D"]
-position = Vector2(3042.02, -218.411)
+process_mode = 3
+position = Vector2(3064, -224)
 rotation = -3.14159
 scale = Vector2(0.910444, -0.642495)
-metadata/_edit_group_ = true
+script = ExtResource("1_k885w")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(-158.26, -4.23128)
+position = Vector2(6.10352e-05, 8.10623e-06)
 rotation = -0.0187955
 scale = Vector2(-0.387763, 0.678883)
 texture = ExtResource("1_ib371")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-164.758, -9.09548)
+position = Vector2(-1.52588e-05, -7.62939e-06)
 shape = SubResource("RectangleShape2D_yixas")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-1.34424, 5.28223)
+shape = SubResource("RectangleShape2D_x7884")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

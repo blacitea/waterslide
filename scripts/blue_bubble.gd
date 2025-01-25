@@ -18,6 +18,8 @@ func _ready():
 	initial_position = position
 	velocity = Vector2.ZERO
 	distance_moved = 0.0
+	add_to_group("projectile")
+
 
 func _physics_process(delta):
 	match current_state:

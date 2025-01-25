@@ -1,6 +1,7 @@
+CollisionShape2D
+Area2D
 AudioStreamPlayer2D
 Node2D
-CollisionShape2D
 Sprite2D
 CharacterBody2D
 TileMapLayer
