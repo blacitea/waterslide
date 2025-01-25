@@ -9,29 +9,29 @@
 size = Vector2(263.608, 162.409)
 
 [node name="fox" type="CharacterBody2D" node_paths=PackedStringArray("projectile_spawn")]
-position = Vector2(584.832, -218.411)
+position = Vector2(6.10352e-05, 0)
 rotation = -3.14159
 scale = Vector2(0.910444, -0.642495)
 script = ExtResource("1_vyaab")
 projectile_scene = ExtResource("2_gpaom")
 projectile_spawn = NodePath("ProjectileSpawn")
+metadata/_edit_group_ = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
 y_sort_enabled = true
-position = Vector2(3.60813, 1.71857)
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(-12.9353, 10.3933)
+position = Vector2(-6.10352e-05, 0)
 rotation = -0.0187955
 scale = Vector2(-0.546258, 0.431582)
 texture = ExtResource("3_j8lsq")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-7.87311, -15.1946)
 shape = SubResource("RectangleShape2D_7iks2")
 
 [node name="ProjectileSpawn" type="Node2D" parent="."]
-position = Vector2(-139.677, -21.1509)
+position = Vector2(-140.591, -24.9034)
 
 [node name="bubbleSpawn" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(-140.591, -24.9034)
 stream = ExtResource("4_efadk")

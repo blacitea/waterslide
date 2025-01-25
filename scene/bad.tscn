@@ -4,32 +4,34 @@
 [ext_resource type="Script" path="res://bad.gd" id="1_k885w"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yixas"]
-size = Vector2(157.989, 336.983)
+size = Vector2(105.355, 243.2)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_x7884"]
-size = Vector2(155.476, 328.738)
+size = Vector2(105.443, 244.36)
 
 [node name="enemy 1" type="CharacterBody2D"]
 process_mode = 3
-position = Vector2(3064, -224)
+position = Vector2(0, -1.90735e-06)
 rotation = -3.14159
 scale = Vector2(0.910444, -0.642495)
 script = ExtResource("1_k885w")
+metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(6.10352e-05, 8.10623e-06)
+position = Vector2(-0.000183105, -3.8147e-06)
 rotation = -0.0187955
-scale = Vector2(-0.387763, 0.678883)
+scale = Vector2(-0.258236, 0.530583)
 texture = ExtResource("1_ib371")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-1.52588e-05, -7.62939e-06)
+position = Vector2(-0.000244141, 0)
 shape = SubResource("RectangleShape2D_yixas")
 
 [node name="Area2D" type="Area2D" parent="."]
+position = Vector2(-0.000267982, 0)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(-1.34424, 5.28223)
+position = Vector2(6.10352e-05, 3.05176e-05)
 shape = SubResource("RectangleShape2D_x7884")
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

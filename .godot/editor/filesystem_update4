@@ -9,3 +9,6 @@ res://scripts/character_body_2d_2.gd
 res://scene/bad.gd
 res://scripts/blue_bubble.gd
 res://scripts/camera_2d.gd
+res://bad.gd
+res://scene/trapped_bad.tscn
+res://scene/trapped_bad.gd

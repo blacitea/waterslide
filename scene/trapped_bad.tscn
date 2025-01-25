@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://cdtkdwmnokiqk"]
+
+[ext_resource type="Script" path="res://scripts/trapped_bad.gd" id="1_kx6vv"]
+[ext_resource type="Texture2D" uid="uid://b53u4h23db371" path="res://sprites/traffic cop bubbled.png" id="2_gknky"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_qchc4"]
+radius = 80.0
+
+[node name="trapped_bad" type="CharacterBody2D"]
+script = ExtResource("1_kx6vv")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0.685681, 2.57811)
+scale = Vector2(0.271991, 0.263941)
+texture = ExtResource("2_gknky")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 1.13687e-13)
+skew = -0.0453786
+shape = SubResource("CircleShape2D_qchc4")

@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://c4ux7wvun56ke"]
+[gd_scene load_steps=5 format=3 uid="uid://c4ux7wvun56ke"]
 
 [ext_resource type="PackedScene" uid="uid://c810f4moc4l47" path="res://scene/mc.tscn" id="1_uan07"]
 [ext_resource type="PackedScene" uid="uid://pyxumq7sscb7" path="res://scene/bad.tscn" id="3_aq8oh"]
+[ext_resource type="PackedScene" uid="uid://cdtkdwmnokiqk" path="res://scene/trapped_bad.tscn" id="4_b8uho"]
 [ext_resource type="PackedScene" uid="uid://c2mpvy3gk54w7" path="res://scene/platform_tile.tscn" id="4_ctfxa"]
 
 [node name="Main" type="Node2D"]
@@ -9,36 +10,43 @@ position = Vector2(-543, -117)
 scale = Vector2(1.11998, 1.36898)
 
 [node name="fox" parent="." instance=ExtResource("1_uan07")]
+position = Vector2(484.83, 97.1526)
 
 [node name="platform" parent="." instance=ExtResource("4_ctfxa")]
-position = Vector2(577.689, -148.286)
+position = Vector2(549.117, 173.122)
 
 [node name="platform2" parent="." instance=ExtResource("4_ctfxa")]
-position = Vector2(1149.13, -113.223)
+position = Vector2(1149.13, -8.03518)
 
 [node name="platform3" parent="." instance=ExtResource("4_ctfxa")]
-position = Vector2(3413.45, -101.535)
+position = Vector2(3242.02, 21.1836)
 
 [node name="platform4" parent="." instance=ExtResource("4_ctfxa")]
-position = Vector2(2842.02, -107.379)
+position = Vector2(2670.58, 15.3399)
 
 [node name="platform6" parent="." instance=ExtResource("4_ctfxa")]
-position = Vector2(1699.14, 85.4651)
+position = Vector2(1699.14, 249.091)
 
 [node name="platform7" parent="." instance=ExtResource("4_ctfxa")]
-position = Vector2(2313.43, 85.4651)
+position = Vector2(2313.43, 249.091)
 
 [node name="platform8" parent="." instance=ExtResource("4_ctfxa")]
-position = Vector2(1949.14, -271.005)
+position = Vector2(1792, -177.504)
 
 [node name="platform9" parent="." instance=ExtResource("4_ctfxa")]
-position = Vector2(2649.15, -422.943)
+position = Vector2(2684.87, -195.036)
 
 [node name="enemy 1" parent="." instance=ExtResource("3_aq8oh")]
-position = Vector2(1277.7, -230.098)
+position = Vector2(1670.57, -271.005)
 
 [node name="enemy 2" parent="." instance=ExtResource("3_aq8oh")]
-position = Vector2(2577.72, -545.662)
+position = Vector2(2563.44, -282.692)
 
 [node name="enemy 3" parent="." instance=ExtResource("3_aq8oh")]
-position = Vector2(2270.58, -25.5665)
+position = Vector2(1992, 161.434)
+
+[node name="trapped_bad" parent="." instance=ExtResource("4_b8uho")]
+position = Vector2(706.263, -84.0042)
+
+[node name="enemy 4" parent="." instance=ExtResource("3_aq8oh")]
+position = Vector2(977.696, -89.8479)
