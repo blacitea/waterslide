@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://tehkdpiq1fvg" path="res://sprites/simple64x_tiles6.png" id="1_6l3fo"]
 [ext_resource type="PackedScene" uid="uid://pyxumq7sscb7" path="res://scene/bad.tscn" id="2_8gjc1"]
 [ext_resource type="PackedScene" uid="uid://c810f4moc4l47" path="res://scene/mc.tscn" id="3_trnjk"]
-[ext_resource type="PackedScene" uid="uid://dpcvo346vywc6" path="res://Scene/blue_bubble.tscn" id="4_ar5nb"]
+[ext_resource type="PackedScene" uid="uid://dpcvo346vywc6" path="res://scene/blue_bubble.tscn" id="4_ar5nb"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_sd1tw"]
 texture = ExtResource("1_6l3fo")

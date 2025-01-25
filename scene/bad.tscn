@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://pyxumq7sscb7"]
 
-[ext_resource type="Texture2D" uid="uid://bjs5dsaw4m5yv" path="res://sprites/traffic_cop.png" id="1_sij15"]
+[ext_resource type="Texture2D" uid="uid://cl4rfc05d8r8h" path="res://sprites/traffic cop.png" id="1_ib371"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yixas"]
 size = Vector2(157.989, 336.983)
@@ -15,7 +15,7 @@ metadata/_edit_group_ = true
 position = Vector2(-158.26, -4.23128)
 rotation = -0.0187955
 scale = Vector2(-0.387763, 0.678883)
-texture = ExtResource("1_sij15")
+texture = ExtResource("1_ib371")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-164.758, -9.09548)

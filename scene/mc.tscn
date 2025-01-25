@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://c810f4moc4l47"]
+[gd_scene load_steps=6 format=3 uid="uid://c810f4moc4l47"]
 
 [ext_resource type="Script" path="res://scripts/character_body_2d_2.gd" id="1_vyaab"]
 [ext_resource type="PackedScene" uid="uid://dpcvo346vywc6" path="res://scene/blue_bubble.tscn" id="2_gpaom"]
 [ext_resource type="Texture2D" uid="uid://b853afhmqsg0r" path="res://sprites/FOX walk 1.png" id="3_j8lsq"]
+[ext_resource type="AudioStream" uid="uid://bg4ljqxvrwnum" path="res://Sounds/bubble spawn v1.0.wav" id="4_efadk"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7iks2"]
 size = Vector2(263.608, 162.409)
@@ -31,3 +32,6 @@ shape = SubResource("RectangleShape2D_7iks2")
 
 [node name="ProjectileSpawn" type="Node2D" parent="."]
 position = Vector2(-139.677, -21.1509)
+
+[node name="bubbleSpawn" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_efadk")

@@ -1,12 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://c4ux7wvun56ke"]
+[gd_scene load_steps=6 format=3 uid="uid://c4ux7wvun56ke"]
 
 [ext_resource type="PackedScene" uid="uid://c810f4moc4l47" path="res://scene/mc.tscn" id="1_uan07"]
-[ext_resource type="Texture2D" uid="uid://n0u3bbdqmerh" path="res://sprites/pipe.png" id="2_ibq3l"]
 [ext_resource type="PackedScene" uid="uid://pyxumq7sscb7" path="res://scene/bad.tscn" id="3_aq8oh"]
+[ext_resource type="PackedScene" uid="uid://c2mpvy3gk54w7" path="res://scene/platform_tile.tscn" id="4_ctfxa"]
 [ext_resource type="Texture2D" uid="uid://bjs5dsaw4m5yv" path="res://sprites/traffic_cop.png" id="4_mo5l3"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_deqo4"]
-size = Vector2(607.154, 23.3751)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yixas"]
 size = Vector2(157.989, 336.983)
@@ -17,25 +14,10 @@ scale = Vector2(1.11998, 1.36898)
 
 [node name="fox" parent="." instance=ExtResource("1_uan07")]
 
-[node name="platform" type="StaticBody2D" parent="."]
-position = Vector2(3363.45, -253.473)
-metadata/_edit_group_ = true
-
-[node name="Sprite2D" type="Sprite2D" parent="platform"]
-position = Vector2(253.57, 149.381)
-scale = Vector2(1.51193, 0.244708)
-texture = ExtResource("2_ibq3l")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="platform"]
-position = Vector2(253.576, 151.938)
-shape = SubResource("RectangleShape2D_deqo4")
-one_way_collision = true
-debug_color = Color(0.183095, 0.583418, 0.73651, 0.42)
-
 [node name="enemy 1" parent="." instance=ExtResource("3_aq8oh")]
 
 [node name="enemy 2" type="CharacterBody2D" parent="."]
-position = Vector2(2134.86, -218.411)
+position = Vector2(1484.85, -31.4102)
 rotation = -3.14159
 scale = Vector2(0.910444, -0.642495)
 metadata/_edit_group_ = true
@@ -66,77 +48,29 @@ texture = ExtResource("4_mo5l3")
 position = Vector2(-164.758, -9.09548)
 shape = SubResource("RectangleShape2D_yixas")
 
-[node name="platform2" type="StaticBody2D" parent="."]
-position = Vector2(2749.16, -259.317)
-metadata/_edit_group_ = true
+[node name="platform" parent="." instance=ExtResource("4_ctfxa")]
+position = Vector2(577.689, -148.286)
 
-[node name="Sprite2D" type="Sprite2D" parent="platform2"]
-position = Vector2(253.57, 149.381)
-scale = Vector2(1.51193, 0.244708)
-texture = ExtResource("2_ibq3l")
+[node name="platform2" parent="." instance=ExtResource("4_ctfxa")]
+position = Vector2(1149.13, -113.223)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="platform2"]
-position = Vector2(253.576, 151.938)
-shape = SubResource("RectangleShape2D_deqo4")
-one_way_collision = true
-debug_color = Color(0.183095, 0.583418, 0.73651, 0.42)
+[node name="platform3" parent="." instance=ExtResource("4_ctfxa")]
+position = Vector2(3549.17, -107.379)
 
-[node name="platform3" type="StaticBody2D" parent="."]
-position = Vector2(2134.86, -265.161)
-metadata/_edit_group_ = true
+[node name="platform4" parent="." instance=ExtResource("4_ctfxa")]
+position = Vector2(2920.59, -107.379)
 
-[node name="Sprite2D" type="Sprite2D" parent="platform3"]
-position = Vector2(253.57, 149.381)
-scale = Vector2(1.51193, 0.244708)
-texture = ExtResource("2_ibq3l")
+[node name="platform5" parent="." instance=ExtResource("4_ctfxa")]
+position = Vector2(2299.15, -124.911)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="platform3"]
-position = Vector2(253.576, 151.938)
-shape = SubResource("RectangleShape2D_deqo4")
-one_way_collision = true
-debug_color = Color(0.183095, 0.583418, 0.73651, 0.42)
+[node name="platform6" parent="." instance=ExtResource("4_ctfxa")]
+position = Vector2(1699.14, 85.4651)
 
-[node name="platform4" type="StaticBody2D" parent="."]
-position = Vector2(1520.56, -276.848)
-metadata/_edit_group_ = true
+[node name="platform7" parent="." instance=ExtResource("4_ctfxa")]
+position = Vector2(2313.43, 85.4651)
 
-[node name="Sprite2D" type="Sprite2D" parent="platform4"]
-position = Vector2(253.57, 149.381)
-scale = Vector2(1.51193, 0.244708)
-texture = ExtResource("2_ibq3l")
+[node name="platform8" parent="." instance=ExtResource("4_ctfxa")]
+position = Vector2(2063.43, -446.318)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="platform4"]
-position = Vector2(253.576, 151.938)
-shape = SubResource("RectangleShape2D_deqo4")
-one_way_collision = true
-debug_color = Color(0.183095, 0.583418, 0.73651, 0.42)
-
-[node name="platform5" type="StaticBody2D" parent="."]
-position = Vector2(906.266, -282.692)
-metadata/_edit_group_ = true
-
-[node name="Sprite2D" type="Sprite2D" parent="platform5"]
-position = Vector2(253.57, 149.381)
-scale = Vector2(1.51193, 0.244708)
-texture = ExtResource("2_ibq3l")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="platform5"]
-position = Vector2(253.576, 151.938)
-shape = SubResource("RectangleShape2D_deqo4")
-one_way_collision = true
-debug_color = Color(0.183095, 0.583418, 0.73651, 0.42)
-
-[node name="platform6" type="StaticBody2D" parent="."]
-position = Vector2(291.97, -294.38)
-metadata/_edit_group_ = true
-
-[node name="Sprite2D" type="Sprite2D" parent="platform6"]
-position = Vector2(253.57, 149.381)
-scale = Vector2(1.51193, 0.244708)
-texture = ExtResource("2_ibq3l")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="platform6"]
-position = Vector2(253.576, 151.938)
-shape = SubResource("RectangleShape2D_deqo4")
-one_way_collision = true
-debug_color = Color(0.183095, 0.583418, 0.73651, 0.42)
+[node name="platform9" parent="." instance=ExtResource("4_ctfxa")]
+position = Vector2(2856.3, -539.818)
