@@ -6,9 +6,10 @@ enum State {
 	FINISHED
 }
 
-@export var horizontal_speed: float = 500.0
-@export var vertical_speed: float = 500.0
+@export var horizontal_speed: float = 50.0
+@export var vertical_speed: float = 200.0
 @export var horizontal_distance: float = 200.0
+@onready var bubble_pop = $bubble_pop
 
 var current_state: State = State.MOVING_RIGHT
 var initial_position: Vector2
@@ -19,6 +20,8 @@ func _ready():
 	velocity = Vector2.ZERO
 	distance_moved = 0.0
 	add_to_group("projectile")
+	collision_layer = 1
+	collision_mask = 1
 
 
 func _physics_process(delta):
@@ -46,3 +49,14 @@ func _move_up(delta: float) -> void:
 	
 	if position.y < -1000:
 		current_state = State.FINISHED
+		
+
+
+func _on_area_2d_body_entered(body):
+	if body.is_in_group("maincharacter"):
+		#var timer = get_tree().create_timer(0.25)
+		#await timer.timeout
+		# Add offset based on sprite height difference
+		bubble_pop.play()
+		await bubble_pop.finished
+		queue_free()

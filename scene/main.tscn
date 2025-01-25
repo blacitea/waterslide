@@ -16,7 +16,7 @@ position = Vector2(484.83, 97.1526)
 position = Vector2(549.117, 173.122)
 
 [node name="platform2" parent="." instance=ExtResource("4_ctfxa")]
-position = Vector2(1149.13, -8.03518)
+position = Vector2(1399.13, -8.03518)
 
 [node name="platform3" parent="." instance=ExtResource("4_ctfxa")]
 position = Vector2(3242.02, 21.1836)
@@ -49,4 +49,7 @@ position = Vector2(1992, 161.434)
 position = Vector2(706.263, -84.0042)
 
 [node name="enemy 4" parent="." instance=ExtResource("3_aq8oh")]
-position = Vector2(977.696, -89.8479)
+position = Vector2(1199.13, -89.8479)
+
+[node name="platform5" parent="." instance=ExtResource("4_ctfxa")]
+position = Vector2(1013.41, 173.122)

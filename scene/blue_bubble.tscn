@@ -1,14 +1,21 @@
-[gd_scene load_steps=4 format=3 uid="uid://dpcvo346vywc6"]
+[gd_scene load_steps=6 format=3 uid="uid://dpcvo346vywc6"]
 
 [ext_resource type="Script" path="res://scripts/blue_bubble.gd" id="1_6d58h"]
 [ext_resource type="Texture2D" uid="uid://buba3vya7dcl5" path="res://sprites/BUBBLE.png" id="1_7r1f7"]
+[ext_resource type="AudioStream" uid="uid://dxlv4cfcw7535" path="res://Sounds/bubble pop.wav" id="2_6h4xl"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_raljk"]
 radius = 32.0
 
-[node name="CharacterBody2D" type="CharacterBody2D"]
+[sub_resource type="CircleShape2D" id="CircleShape2D_tek35"]
+radius = 32.9848
+
+[node name="blue_bubble" type="CharacterBody2D"]
 script = ExtResource("1_6d58h")
 metadata/_edit_group_ = true
+
+[node name="bubble_pop" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_6h4xl")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(-1.90735e-06, 0)
@@ -17,3 +24,10 @@ texture = ExtResource("1_7r1f7")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_raljk")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_tek35")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

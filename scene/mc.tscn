@@ -15,7 +15,6 @@ scale = Vector2(0.910444, -0.642495)
 script = ExtResource("1_vyaab")
 projectile_scene = ExtResource("2_gpaom")
 projectile_spawn = NodePath("ProjectileSpawn")
-metadata/_edit_group_ = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
 y_sort_enabled = true
@@ -30,8 +29,8 @@ texture = ExtResource("3_j8lsq")
 shape = SubResource("RectangleShape2D_7iks2")
 
 [node name="ProjectileSpawn" type="Node2D" parent="."]
-position = Vector2(-140.591, -24.9034)
+position = Vector2(-210.886, -24.9037)
 
 [node name="bubbleSpawn" type="AudioStreamPlayer2D" parent="."]
-position = Vector2(-140.591, -24.9034)
+position = Vector2(-210.886, -24.9037)
 stream = ExtResource("4_efadk")

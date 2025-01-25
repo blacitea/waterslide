@@ -1,16 +1,19 @@
 extends CharacterBody2D
 
-const SPEED = 7000.0
-const JUMP_FORCE = -800.0
+const SPEED = 9000.0
+const JUMP_FORCE = -600.0
 
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 var has_started = false
 
 @export var projectile_scene: PackedScene
-@export var spawn_interval: float = 1.0
+@export var spawn_interval: float = 2.0
 @export var projectile_spawn: Node2D
 @onready var bubble_spawn = $bubbleSpawn
 var spawn_timer: float = 0.0
+
+func _ready() -> void:
+		add_to_group("maincharacter")
 
 func _process(delta: float) -> void:
 	if has_started:
@@ -28,9 +31,12 @@ func spawn_projectile() -> void:
 	projectile.velocity = Vector2.ZERO
 	bubble_spawn.play()
 	
-	# Re-enable collisions after delay
+	var projectile_ref = weakref(projectile)
+	
 	await get_tree().create_timer(0.1).timeout
-	projectile.collision_layer = 1
+	if projectile_ref.get_ref():
+		projectile_ref.get_ref().collision_layer = 1
+
 
 func _physics_process(delta):
 	if not is_on_floor():

@@ -11,7 +11,7 @@ func _on_area_2d_body_entered(body):
 	if body.is_in_group("projectile"):
 		var hit_enemy = hit_enemy_scene.instantiate()
 		# Add offset based on sprite height difference
-		hit_enemy.global_position = global_position + Vector2(0, 16)  # Adjust 16 to match your sprites		get_parent().add_child(hit_enemy)
+		hit_enemy.global_position = global_position + Vector2(400, 0)  # Adjust 16 to match your sprites		get_parent().add_child(hit_enemy)
 		var parent = get_parent()
 		var my_index = get_index()
 		parent.add_child(hit_enemy)
