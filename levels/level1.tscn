@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://bo4ibya0uy6gx"]
+[gd_scene load_steps=12 format=3 uid="uid://bo4ibya0uy6gx"]
 
 [ext_resource type="PackedScene" uid="uid://c810f4moc4l47" path="res://scene/mc.tscn" id="3_trnjk"]
 [ext_resource type="PackedScene" uid="uid://dpcvo346vywc6" path="res://scene/blue_bubble.tscn" id="4_ar5nb"]
@@ -9,6 +9,8 @@
 [ext_resource type="PackedScene" uid="uid://r4l7yf4aoquh" path="res://scene/bird.tscn" id="7_tl5c1"]
 [ext_resource type="PackedScene" uid="uid://ndp5kfj4cftk" path="res://scene/crab.tscn" id="8_wdado"]
 [ext_resource type="PackedScene" uid="uid://4wmy1g7dm23g" path="res://scene/waterbug.tscn" id="9_3b12v"]
+[ext_resource type="PackedScene" uid="uid://dw5axn44yuqga" path="res://scene/trapped_crab.tscn" id="10_oq6vu"]
+[ext_resource type="PackedScene" uid="uid://cdtkdwmnokiqk" path="res://scene/trapped_frog.tscn" id="11_s8nhe"]
 
 [node name="Level1" type="Node2D"]
 
@@ -192,3 +194,102 @@ position = Vector2(1888, -7984)
 
 [node name="frog" parent="." instance=ExtResource("5_c6xfw")]
 position = Vector2(-20328, -864)
+
+[node name="crab7" parent="." instance=ExtResource("8_wdado")]
+position = Vector2(-7928, -40)
+
+[node name="crab8" parent="." instance=ExtResource("8_wdado")]
+position = Vector2(-7504, 224)
+
+[node name="crab9" parent="." instance=ExtResource("8_wdado")]
+position = Vector2(-7264, 472)
+
+[node name="frog2" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(1104, 1392)
+
+[node name="frog3" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(2752, 2240)
+
+[node name="frog4" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(-8, 3800)
+
+[node name="frog5" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(848, 3792)
+
+[node name="frog6" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(-504, 3800)
+
+[node name="frog7" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(2472, 3800)
+
+[node name="frog8" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(4368, 3792)
+
+[node name="frog9" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(6936, 3792)
+
+[node name="frog10" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(6768, 2248)
+
+[node name="frog11" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(10888, 4128)
+
+[node name="frog12" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(12136, 5704)
+
+[node name="frog13" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(14192, 5704)
+
+[node name="frog14" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(17280, 5704)
+
+[node name="frog15" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(18208, 4128)
+
+[node name="frog16" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(17048, 3680)
+
+[node name="frog17" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(16872, 4136)
+
+[node name="frog18" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(18360, -608)
+
+[node name="frog19" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(16680, -608)
+
+[node name="frog20" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(14200, -616)
+
+[node name="frog21" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(9896, -608)
+
+[node name="frog22" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(9832, -5312)
+
+[node name="frog23" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(11144, -5312)
+
+[node name="frog24" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(12240, -5312)
+
+[node name="crab10" parent="." instance=ExtResource("8_wdado")]
+position = Vector2(13920, -5312)
+
+[node name="frog25" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(15440, -5304)
+
+[node name="frog26" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(11368, 3664)
+
+[node name="crab11" parent="." instance=ExtResource("8_wdado")]
+position = Vector2(12384, 3656)
+
+[node name="frog27" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(13816, 3656)
+
+[node name="trapped_crab" parent="." instance=ExtResource("10_oq6vu")]
+position = Vector2(12600, 4128)
+
+[node name="trapped_frog" parent="." instance=ExtResource("11_s8nhe")]
+position = Vector2(13528, 4136)

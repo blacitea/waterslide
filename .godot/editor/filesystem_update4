@@ -1,4 +1,5 @@
 res://scene/blue_bubble.tscn
+res://scripts/blue_bubble.gd
 res://scene/main.tscn
 res://levels/level1.tscn
 res://scene/mc.tscn

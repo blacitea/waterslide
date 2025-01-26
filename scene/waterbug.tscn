@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://4wmy1g7dm23g"]
 
-[ext_resource type="Script" path="res://scene/waterbug.gd" id="1_bbcpe"]
+[ext_resource type="Script" path="res://scripts/waterbug.gd" id="1_bbcpe"]
 [ext_resource type="Texture2D" uid="uid://dq8pl05fs0e3b" path="res://sprites/jimin Assets/WaterBug.PNG" id="2_if16y"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_x7884"]

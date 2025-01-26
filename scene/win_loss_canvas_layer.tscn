@@ -1,6 +1,7 @@
 [gd_scene load_steps=2 format=3 uid="uid://cntdbo586i6ff"]
 
-[ext_resource type="Script" path="res://scene/win_loss_canvas_layer.gd" id="1_n0qnw"]
+[ext_resource type="Script" path="res://scripts/win_loss_canvas_layer.gd" id="1_n0qnw"]
+
 
 [node name="WinLossCanvasLayer" type="CanvasLayer"]
 script = ExtResource("1_n0qnw")
