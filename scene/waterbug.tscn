@@ -1,30 +1,29 @@
-[gd_scene load_steps=4 format=3 uid="uid://pyxumq7sscb7"]
+[gd_scene load_steps=4 format=3 uid="uid://4wmy1g7dm23g"]
 
-[ext_resource type="Texture2D" uid="uid://cl4rfc05d8r8h" path="res://sprites/traffic cop.png" id="1_ib371"]
-[ext_resource type="Script" path="res://scripts/bad.gd" id="1_k885w"]
+[ext_resource type="Script" path="res://scripts/bad.gd" id="1_t003d"]
+[ext_resource type="Texture2D" uid="uid://dq8pl05fs0e3b" path="res://sprites/jimin Assets/WaterBug.PNG" id="2_if16y"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_x7884"]
-size = Vector2(105.443, 244.36)
+size = Vector2(158.165, 124.515)
 
-[node name="enemy 1" type="Node2D"]
+[node name="waterbug" type="Node2D"]
 process_mode = 3
 position = Vector2(0, -1.90735e-06)
 rotation = -3.14159
 scale = Vector2(0.910444, -0.642495)
-script = ExtResource("1_k885w")
-metadata/_edit_group_ = true
+script = ExtResource("1_t003d")
 
 [node name="Area2D" type="Area2D" parent="."]
 position = Vector2(-0.000267982, 0)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(6.10352e-05, 3.05176e-05)
+position = Vector2(0.000269029, -1.18746e-05)
 shape = SubResource("RectangleShape2D_x7884")
 
 [node name="Sprite2D" type="Sprite2D" parent="Area2D"]
-position = Vector2(8.4877e-05, -3.8147e-06)
+position = Vector2(-35.1474, -12.4516)
 rotation = 3.1228
-scale = Vector2(0.258236, -0.530583)
-texture = ExtResource("1_ib371")
+scale = Vector2(0.165389, -0.338668)
+texture = ExtResource("2_if16y")
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
