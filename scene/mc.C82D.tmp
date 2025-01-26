@@ -19,7 +19,6 @@ projectile_spawn = NodePath("ProjectileSpawn")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 y_sort_enabled = true
-position = Vector2(-404.198, -24.9044)
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(-6.10352e-05, 0)

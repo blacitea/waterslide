@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=4 uid="uid://bo4ibya0uy6gx"]
+[gd_scene load_steps=7 format=4 uid="uid://bo4ibya0uy6gx"]
 
 [ext_resource type="Texture2D" uid="uid://tehkdpiq1fvg" path="res://sprites/simple64x_tiles6.png" id="1_6l3fo"]
 [ext_resource type="PackedScene" uid="uid://c810f4moc4l47" path="res://scene/mc.tscn" id="3_trnjk"]
 [ext_resource type="PackedScene" uid="uid://dpcvo346vywc6" path="res://scene/blue_bubble.tscn" id="4_ar5nb"]
+[ext_resource type="PackedScene" uid="uid://c2mpvy3gk54w7" path="res://scene/platform_tile.tscn" id="4_cuxy1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_sd1tw"]
 texture = ExtResource("1_6l3fo")
@@ -34,6 +35,16 @@ tile_map_data = PackedByteArray("AAD9/wAAAAABAAEAAAD+/wAAAAABAAEAAAD//wAAAAABAAE
 tile_set = SubResource("TileSet_rhexe")
 
 [node name="fox" parent="." instance=ExtResource("3_trnjk")]
-position = Vector2(-823.168, -250.411)
+position = Vector2(2224, 600)
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("4_ar5nb")]
+
+[node name="platform" parent="." instance=ExtResource("4_cuxy1")]
+position = Vector2(4984, -1720)
+rotation = -0.507492
+scale = Vector2(11.9706, 1)
+
+[node name="platform2" parent="." instance=ExtResource("4_cuxy1")]
+position = Vector2(7192, 2280)
+rotation = 0.401193
+scale = Vector2(11.9706, 1)

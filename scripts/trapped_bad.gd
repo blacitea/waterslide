@@ -11,7 +11,8 @@ var initial_position: Vector2
 var distance_moved: float = 0.0
 @export var vertical_speed: float = 50.0
 @onready var enemy_pop = $enemy_pop
-
+##@onready var collision_shape = $CollisionShape2D;
+##@onready var sprite_shape = $Sprite2D;
 var popped_enemy_scene = preload("res://scene/popped_bad.tscn")
 
 func _ready():
@@ -43,6 +44,12 @@ func _handle_hit():
 	print("I am called cause I hit the mc")
 	enemy_pop.play()
 	var hit_enemy = popped_enemy_scene.instantiate()
+	
+	 
+	##get_node("CollisionShape2D").disabled = true   
+	##$CollisionShape2D.z_index = -10;
+	##$Sprite2D.z_index = -10;
+	
 	hit_enemy.global_position = global_position + Vector2(400, 0)
 	var parent = get_parent()
 	var my_index = get_index()
