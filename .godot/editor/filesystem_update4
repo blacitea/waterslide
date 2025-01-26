@@ -1,12 +1,10 @@
-res://scene/waterbug.tscn
-res://scripts/frog.gd
-res://scene/frog.tscn
-res://scene/waterbug.gd
+res://scene/blue_bubble.tscn
 res://scene/main.tscn
 res://levels/level1.tscn
 res://scene/mc.tscn
 res://scene/goal.tscn
-res://scene/blue_bubble.tscn
 res://scene/platform_tile.tscn
 res://scene/finish_line.tscn
 res://scene/trapped_waterbug.tscn
+res://scene/waterbug.tscn
+res://scene/frog.tscn
