@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://cdtkdwmnokiqk"]
+
+[ext_resource type="Script" path="res://scripts/trapped_bad.gd" id="1_8vs4t"]
+[ext_resource type="Texture2D" uid="uid://bcw08jssypsy6" path="res://sprites/jimin Assets/FrogBubbled.png" id="2_878cs"]
+[ext_resource type="AudioStream" uid="uid://clycxj3shlrqn" path="res://Sounds/fox bubbled enemy jump.wav" id="3_q80eo"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_70snw"]
+radius = 32.0
+
+[node name="trapped_frog" type="Node2D"]
+script = ExtResource("1_8vs4t")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_70snw")
+
+[node name="Sprite2D" type="Sprite2D" parent="Area2D"]
+rotation = -0.77813
+scale = Vector2(0.0647402, 0.0654531)
+texture = ExtResource("2_878cs")
+
+[node name="enemy_pop" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_q80eo")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

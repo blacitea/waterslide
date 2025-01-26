@@ -1,6 +1,6 @@
 extends Node2D
 
-var hit_enemy_scene = preload("res://scene/trapped_bad.tscn")
+var hit_enemy_scene = preload("res://scene/trapped_waterbug.tscn")
 
 func _ready():
 	add_to_group("bad")

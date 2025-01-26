@@ -100,8 +100,7 @@ func _physics_process(delta):
 		
 	move_and_slide()
 	_update_platform_status()
-	
-	
+	_update_sprite_state(delta)
 	#print("Normal:", get_floor_normal());
 	##print("Angle:", get_floor_angle());
 	
@@ -120,3 +119,8 @@ func _update_platform_status():
 		elif collision.get_collider().is_in_group("ground"):
 			is_on_platform = true
 			can_fall_through = false
+			
+func _update_sprite_state(delta):
+	print("Check sprite", delta)
+	
+	
