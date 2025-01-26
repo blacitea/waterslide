@@ -15,3 +15,6 @@ res://scene/trapped_bad.gd
 res://scripts/platform_tile.gd
 res://scene/group_tile.tscn
 res://scene/ground.tscn
+res://scripts/bad.gd
+res://scripts/ground.gd
+res://scripts/trapped_bad.gd
