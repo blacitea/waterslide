@@ -43,18 +43,18 @@ func _on_area_2d_body_entered(body):
 func _handle_hit():
 	print("I am called cause I hit the mc")
 	enemy_pop.play()
-	var hit_enemy = popped_enemy_scene.instantiate()
+	#var hit_enemy = popped_enemy_scene.instantiate()
 	
 	 
 	##get_node("CollisionShape2D").disabled = true   
 	##$CollisionShape2D.z_index = -10;
 	##$Sprite2D.z_index = -10;
 	
-	hit_enemy.global_position = global_position + Vector2(400, 0)
-	var parent = get_parent()
-	var my_index = get_index()
-	parent.add_child(hit_enemy)
-	parent.move_child(hit_enemy, my_index)
+	#hit_enemy.global_position = global_position + Vector2(400, 0)
+	#var parent = get_parent()
+	#var my_index = get_index()
+	#parent.add_child(hit_enemy)
+	#parent.move_child(hit_enemy, my_index)
 	await enemy_pop.finished
 	queue_free()
 	

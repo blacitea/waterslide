@@ -77,13 +77,25 @@ position = Vector2(4392.04, 564.654)
 position = Vector2(4849.19, 564.654)
 
 [node name="enemy 5" parent="." instance=ExtResource("3_aq8oh")]
-position = Vector2(2842.02, 325.06)
+position = Vector2(2534.87, 319.216)
 
 [node name="enemy 6" parent="." instance=ExtResource("3_aq8oh")]
 position = Vector2(3249.17, 319.216)
 
 [node name="enemy 7" parent="." instance=ExtResource("3_aq8oh")]
-position = Vector2(3556.31, 325.06)
+position = Vector2(4006.32, 336.747)
 
 [node name="enemy 8" parent="." instance=ExtResource("3_aq8oh")]
-position = Vector2(3856.32, 330.903)
+position = Vector2(4942.05, 336.747)
+
+[node name="ground12" parent="." instance=ExtResource("5_fsumo")]
+position = Vector2(5320.63, 570.498)
+
+[node name="ground13" parent="." instance=ExtResource("5_fsumo")]
+position = Vector2(5806.35, 570.498)
+
+[node name="ground14" parent="." instance=ExtResource("5_fsumo")]
+position = Vector2(6734.94, 576.341)
+
+[node name="ground15" parent="." instance=ExtResource("5_fsumo")]
+position = Vector2(6263.5, 576.341)

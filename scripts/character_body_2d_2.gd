@@ -109,7 +109,7 @@ func _physics_process(delta):
 		apply_floor_snap();
 
 	velocity.x = clamp(velocity.x,300,2000);
-	velocity.y = clamp(velocity.y,300,2000);
+	#velocity.y = clamp(velocity.y,300,2000);
 		
 	move_and_slide()
 	_update_platform_status()

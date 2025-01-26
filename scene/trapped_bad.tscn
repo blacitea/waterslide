@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scripts/trapped_bad.gd" id="1_kx6vv"]
 [ext_resource type="Texture2D" uid="uid://b53u4h23db371" path="res://sprites/traffic cop bubbled.png" id="2_gknky"]
-[ext_resource type="AudioStream" uid="uid://u7dsamxh644a" path="res://Sounds/fox bubbled enemy jump.wav" id="3_qbscp"]
+[ext_resource type="AudioStream" uid="uid://clycxj3shlrqn" path="res://Sounds/fox bubbled enemy jump.wav" id="3_qbscp"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_qchc4"]
 radius = 64.0
