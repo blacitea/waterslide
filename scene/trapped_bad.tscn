@@ -1,31 +1,23 @@
-[gd_scene load_steps=6 format=3 uid="uid://cdtkdwmnokiqk"]
+[gd_scene load_steps=5 format=3 uid="uid://cdtkdwmnokiqk"]
 
 [ext_resource type="Script" path="res://scripts/trapped_bad.gd" id="1_kx6vv"]
 [ext_resource type="Texture2D" uid="uid://b53u4h23db371" path="res://sprites/traffic cop bubbled.png" id="2_gknky"]
 [ext_resource type="AudioStream" uid="uid://clycxj3shlrqn" path="res://Sounds/fox bubbled enemy jump.wav" id="3_qbscp"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_qchc4"]
-radius = 64.0
-
 [sub_resource type="CircleShape2D" id="CircleShape2D_70snw"]
 radius = 72.0
 
-[node name="trapped_bad" type="CharacterBody2D"]
+[node name="trapped_bad" type="Node2D"]
 script = ExtResource("1_kx6vv")
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(0.23676, 0.238806)
-texture = ExtResource("2_gknky")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(2.38419e-07, 2.71051e-20)
-skew = -0.0453786
-shape = SubResource("CircleShape2D_qchc4")
 
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 shape = SubResource("CircleShape2D_70snw")
+
+[node name="Sprite2D" type="Sprite2D" parent="Area2D"]
+scale = Vector2(0.23676, 0.238806)
+texture = ExtResource("2_gknky")
 
 [node name="enemy_pop" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("3_qbscp")

@@ -99,3 +99,5 @@ position = Vector2(6734.94, 576.341)
 
 [node name="ground15" parent="." instance=ExtResource("5_fsumo")]
 position = Vector2(6263.5, 576.341)
+
+[node name="finish_line" type="Node2D" parent="."]

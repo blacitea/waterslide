@@ -1,4 +1,4 @@
-extends CharacterBody2D
+extends Node2D
 
 enum State {
 	MOVING_RIGHT,
@@ -17,9 +17,10 @@ var popped_enemy_scene = preload("res://scene/popped_bad.tscn")
 
 func _ready():
 	initial_position = position
-	velocity = Vector2.ZERO
 	distance_moved = 0.0
 	add_to_group("trapped")
+	var node2D = get_node(".")
+	node2D.set_process(true)
 	
 func _physics_process(delta):
 	match current_state:
@@ -29,32 +30,18 @@ func _physics_process(delta):
 			queue_free()
 			
 func _move_up(delta: float) -> void:
-	velocity.y = -vertical_speed
-	position.y += velocity.y * delta
 	
 	if position.y < -1000:
 		current_state = State.FINISHED
 		
-func _on_area_2d_body_entered(body):
-	print("Collision detected with:", body.get_groups())
-	if body.is_in_group("maincharacter"):
-		call_deferred("_handle_hit")
-		
-func _handle_hit():
-	print("I am called cause I hit the mc")
-	enemy_pop.play()
-	#var hit_enemy = popped_enemy_scene.instantiate()
-	
-	 
-	##get_node("CollisionShape2D").disabled = true   
-	##$CollisionShape2D.z_index = -10;
-	##$Sprite2D.z_index = -10;
-	
-	#hit_enemy.global_position = global_position + Vector2(400, 0)
-	#var parent = get_parent()
-	#var my_index = get_index()
-	#parent.add_child(hit_enemy)
-	#parent.move_child(hit_enemy, my_index)
-	await enemy_pop.finished
-	queue_free()
-	
+#func _on_area_2d_body_entered(body):
+	#print("Collision detected with:", body.get_groups())
+	#if body.is_in_group("maincharacter"):
+		#enemy_pop.play()
+		#var node2D = get_node(".")
+		#node2D.set_process(true)
+		#await enemy_pop.finished
+		#queue_free()
+
+func _process(delta):
+	position.y -= 50 * delta  

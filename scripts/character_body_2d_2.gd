@@ -49,14 +49,6 @@ func spawn_projectile() -> void:
 
 
 func _physics_process(delta):
-	##if has_started:
-	##	velocity.x = SPEED * delta
-	
-	
-		
-	
-		
-	
 	
 	if not is_on_floor():
 		velocity.y += gravity * delta
@@ -71,8 +63,6 @@ func _physics_process(delta):
 			set_floor_snap_length(100);
 			await mc_jump.finished
 			
-			
-			
 		if not has_started:
 			has_started = true
 			
@@ -81,10 +71,6 @@ func _physics_process(delta):
 			if velocity.x < 2000:
 			
 				velocity.x += 100;
-				##var normal = get_slide_collision(0).get_normal();
-				##velocity += normal.rotated(PI/2) * 10 * delta;
-				
-				
 
 	if Input.is_action_pressed("ui_left"):
 			if is_on_floor():
@@ -95,11 +81,11 @@ func _physics_process(delta):
 		position.y += 1  # Move slightly down to trigger collision exit
 		velocity.y = FALL_THROUGH_SPEED
 		
-	print("Before R: ", velocity.x);
+	#print("Before R: ", velocity.x);
 		
 	if velocity.x < MINIMUM_SPEED && velocity.x > 0:
 		var ratio = MINIMUM_SPEED/velocity.x;	
-		print("Ratio: ", ratio);
+		#print("Ratio: ", ratio);
 		
 		velocity *= ratio;
 		##print("Velocity: ", velocity);
@@ -114,10 +100,8 @@ func _physics_process(delta):
 	move_and_slide()
 	_update_platform_status()
 	
-	##print("VelocityX: ", velocity.x);
-	##print("VelocityY: ", velocity.y);
 	
-	print("Normal:", get_floor_normal());
+	#print("Normal:", get_floor_normal());
 	##print("Angle:", get_floor_angle());
 	
 	
@@ -134,3 +118,4 @@ func _update_platform_status():
 			can_fall_through = true
 		elif collision.get_collider().is_in_group("ground"):
 			is_on_platform = true
+			can_fall_through = false

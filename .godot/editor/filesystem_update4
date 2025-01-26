@@ -1,1 +1,15 @@
+<<<<<<< Updated upstream
 res://scene/win_loss_canvas_layer.gd
+=======
+res://scene/main.tscn
+res://scene/win_loss_canvas_layer.tscn
+res://scene/trapped_bad.tscn
+res://scripts/trapped_bad.gd
+res://scene/bad.tscn
+res://scripts/bad.gd
+res://scene/mc.tscn
+res://scripts/character_body_2d_2.gd
+res://scene/ground.tscn
+res://scene/platform_tile.tscn
+res://scripts/ground.gd
+>>>>>>> Stashed changes
