@@ -1,12 +1,12 @@
 extends CharacterBody2D
 
-const SPEED = 9000.0
+const SPEED = 300.0
 const JUMP_FORCE = -600.0
 const FALL_THROUGH_SPEED = 200.0
-const MINIMUM_SPEED = 1000;
+const MINIMUM_SPEED = 300;
 
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
-var has_started = false
+var has_started = true
 var is_on_platform = false
 var can_fall_through = false
 
@@ -53,8 +53,8 @@ func _physics_process(delta):
 	if not is_on_floor():
 		velocity.y += gravity * delta
 		
-		if Input.is_action_just_pressed("shoot_bubble"):
-			spawn_projectile();
+	if Input.is_action_just_pressed("shoot_bubble"):
+		spawn_projectile();
 	
 	if Input.is_action_pressed("ui_accept"):
 		if is_on_floor():

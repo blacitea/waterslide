@@ -1,0 +1,31 @@
+[gd_scene load_steps=6 format=3 uid="uid://cv85l26fijigv"]
+
+[ext_resource type="Texture2D" uid="uid://q3k8ep3g3hqb" path="res://sprites/icon.svg" id="1_6wfob"]
+[ext_resource type="Script" path="res://scene/popped_bad.gd" id="1_jsell"]
+[ext_resource type="AudioStream" uid="uid://u7dsamxh644a" path="res://Sounds/fox bubbled enemy jump.wav" id="3_ckicn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g2san"]
+size = Vector2(128, 128)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ame0s"]
+size = Vector2(128, 128)
+
+[node name="popped_bad" type="CharacterBody2D"]
+script = ExtResource("1_jsell")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_6wfob")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_g2san")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("RectangleShape2D_ame0s")
+
+[node name="enemy_pop" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_ckicn")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
