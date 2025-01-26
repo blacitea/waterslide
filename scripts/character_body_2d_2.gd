@@ -3,6 +3,7 @@ extends CharacterBody2D
 const SPEED = 9000.0
 const JUMP_FORCE = -600.0
 const FALL_THROUGH_SPEED = 200.0
+const MINIMUM_SPEED = 1000;
 
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 var has_started = false
@@ -42,8 +43,11 @@ func spawn_projectile() -> void:
 
 
 func _physics_process(delta):
-	if has_started:
-		velocity.x = SPEED * delta
+	##if has_started:
+	##	velocity.x = SPEED * delta
+		
+	if velocity.x < MINIMUM_SPEED:
+		velocity.x = MINIMUM_SPEED;
 		
 	if not is_on_floor():
 		velocity.y += gravity * delta
@@ -53,7 +57,17 @@ func _physics_process(delta):
 			velocity.y = JUMP_FORCE
 		if not has_started:
 			has_started = true
-	
+			
+	if Input.is_action_pressed("ui_right"):
+		if is_on_floor():
+			if velocity.x < 4000:
+				velocity.x = velocity.x + 100;
+
+	if Input.is_action_pressed("ui_left"):
+			if is_on_floor():
+				if velocity.x > 1000:
+					velocity.x = velocity.x - 100;
+				
 	if Input.is_action_pressed("ui_down") :
 		position.y += 1  # Move slightly down to trigger collision exit
 		velocity.y = FALL_THROUGH_SPEED
