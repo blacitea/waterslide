@@ -1,5 +1,4 @@
-res://scene/mc.tscn
-res://scripts/character_body_2d_2.gd
+res://scene/win_loss_canvas_layer.tscn
 res://scene/main.tscn
 res://levels/level1.tscn
 res://scene/blue_bubble.tscn
@@ -8,6 +7,6 @@ res://scene/trapped_bad.tscn
 res://scene/platform_tile.tscn
 res://scene/group_tile.tscn
 res://scene/ground.tscn
+res://scene/mc.tscn
 res://scene/popped_bad.tscn
-res://scripts/trapped_bad.gd
-res://scripts/blue_bubble.gd
+res://scene/win_loss_canvas_layer.gd

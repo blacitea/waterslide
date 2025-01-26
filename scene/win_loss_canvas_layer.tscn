@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://cntdbo586i6ff"]
+
+[node name="WinLossCanvasLayer" type="CanvasLayer"]
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 536.0
+offset_top = 312.0
+offset_right = -529.0
+offset_bottom = -313.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Game Over"
+
+[node name="Button" type="Button" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 488.0
+offset_top = 360.0
+offset_right = -480.0
+offset_bottom = -240.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Restart?"
+
+[node name="Button2" type="Button" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 488.0
+offset_top = 432.0
+offset_right = -480.0
+offset_bottom = -168.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Quit?"
