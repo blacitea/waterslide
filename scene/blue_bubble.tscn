@@ -5,10 +5,10 @@
 [ext_resource type="AudioStream" uid="uid://dxlv4cfcw7535" path="res://Sounds/bubble pop.wav" id="2_6h4xl"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_raljk"]
-radius = 32.0
+radius = 32.9848
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_tek35"]
-radius = 32.9848
+radius = 40.0
 
 [node name="blue_bubble" type="CharacterBody2D"]
 script = ExtResource("1_6d58h")
