@@ -1,34 +1,34 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1737929791
-export_presets.cfg::TextFile::-1::1737929665::0::1::::<><>::
+::res://::1737931405
+export_presets.cfg::TextFile::-1::1737929973::0::1::::<><>::
 index.apple-touch-icon.png::CompressedTexture2D::288549800733144101::1737919105::1737929272::1::::<><>::
 index.icon.png::CompressedTexture2D::6270198762000377496::1737919105::1737929272::1::::<><>::
 index.png::CompressedTexture2D::8949494261226292496::1737919105::1737929273::1::::<><>::
 README.md::TextFile::-1::1737788366::0::1::::<><>::
-::res://levels/::1737929647
-level1.tscn::PackedScene::3429420232953319679::1737929647::0::1::::<><>::uid://c810f4moc4l47::::res://scene/mc.tscn<>uid://dpcvo346vywc6::::res://scene/blue_bubble.tscn<>uid://c2mpvy3gk54w7::::res://scene/platform_tile.tscn<>uid://pyxumq7sscb7::::res://scene/frog.tscn<>uid://dulag31gm7pdo::::res://scene/large_ground.tscn<>uid://nllgl64knv6f::::res://scene/finish_line.tscn<>uid://r4l7yf4aoquh::::res://scene/bird.tscn<>uid://ndp5kfj4cftk::::res://scene/crab.tscn<>uid://4wmy1g7dm23g::::res://scene/waterbug.tscn<>uid://dw5axn44yuqga::::res://scene/trapped_crab.tscn<>uid://cdtkdwmnokiqk::::res://scene/trapped_frog.tscn
-::res://scene/::1737929655
-background.tscn::PackedScene::477824304418036525::1737850934::0::1::::<><>::uid://c1ue4nt0roh7u::::res://sprites/background.jpg
-bird.tscn::PackedScene::1253803598642294079::1737928621::0::1::::<><>::res://scripts/bird.gd<>uid://dkw4fitl1oynd::::res://sprites/jimin Assets/Bird.PNG
-blue_bubble.tscn::PackedScene::8217525036011334891::1737929648::0::1::::<><>::res://scripts/blue_bubble.gd<>uid://buba3vya7dcl5::::res://sprites/BUBBLE.png<>uid://dacvfp7qyv8vh::::res://Sounds/bubble pop.wav
+::res://levels/::1737929834
+level1.tscn::PackedScene::3429420232953319679::1737929834::0::1::::<><>::uid://c810f4moc4l47::::res://scene/mc.tscn<>uid://dpcvo346vywc6::::res://scene/blue_bubble.tscn<>uid://c2mpvy3gk54w7::::res://scene/platform_tile.tscn<>uid://pyxumq7sscb7::::res://scene/frog.tscn<>uid://dulag31gm7pdo::::res://scene/large_ground.tscn<>uid://nllgl64knv6f::::res://scene/finish_line.tscn<>uid://r4l7yf4aoquh::::res://scene/bird.tscn<>uid://ndp5kfj4cftk::::res://scene/crab.tscn<>uid://4wmy1g7dm23g::::res://scene/waterbug.tscn<>uid://dw5axn44yuqga::::res://scene/trapped_crab.tscn<>uid://cdtkdwmnokiqk::::res://scene/trapped_frog.tscn
+::res://scene/::1737931366
+background.tscn::PackedScene::477824304418036525::1737931366::0::1::::<><>::uid://c1ue4nt0roh7u::::res://sprites/background.jpg
+bird.tscn::PackedScene::1253803598642294079::1737929835::0::1::::<><>::res://scripts/bird.gd<>uid://dkw4fitl1oynd::::res://sprites/jimin Assets/Bird.PNG
+blue_bubble.tscn::PackedScene::8217525036011334891::1737929834::0::1::::<><>::res://scripts/blue_bubble.gd<>uid://buba3vya7dcl5::::res://sprites/BUBBLE.png<>uid://dacvfp7qyv8vh::::res://Sounds/bubble pop.wav
 crab.tscn::PackedScene::919612962670525284::1737928621::0::1::::<><>::res://scripts/crab.gd<>uid://o38r6f6050c6::::res://sprites/jimin Assets/Crab.PNG
-finish_line.tscn::PackedScene::935842351250254431::1737929648::0::1::::<><>::uid://dt4i0fjxo3opr::::res://scene/goal.tscn
-frog.tscn::PackedScene::1103810583855416826::1737929648::0::1::::<><>::res://scripts/frog.gd<>uid://c8l535x3a1eul::::res://sprites/jimin Assets/Frog.PNG
-goal.tscn::PackedScene::8553247693444237223::1737929648::0::1::::<><>::res://scripts/platform_tile.gd<>uid://qboasm20q26y::::res://sprites/GOAL.png
+finish_line.tscn::PackedScene::935842351250254431::1737929834::0::1::::<><>::uid://dt4i0fjxo3opr::::res://scene/goal.tscn
+frog.tscn::PackedScene::1103810583855416826::1737929835::0::1::::<><>::res://scripts/frog.gd<>uid://c8l535x3a1eul::::res://sprites/jimin Assets/Frog.PNG
+goal.tscn::PackedScene::8553247693444237223::1737929834::0::1::::<><>::res://scripts/platform_tile.gd<>uid://qboasm20q26y::::res://sprites/GOAL.png
 ground.tscn::PackedScene::4961639075792304660::1737928552::0::1::::<><>::uid://do451dbc2citt::::res://sprites/grass.png<>res://scripts/ground.gd
 group_tile.tscn::PackedScene::977237155186058663::1737867232::0::1::::<><>::uid://n0u3bbdqmerh::::res://sprites/pipe.png
 large_ground.tscn::PackedScene::8585759305006680368::1737928552::0::1::::<><>::uid://ccxpqadmj1ak7::::res://scene/ground.tscn
-main.tscn::PackedScene::6851060213090814164::1737929647::0::1::::<><>::uid://c810f4moc4l47::::res://scene/mc.tscn<>uid://pyxumq7sscb7::::res://scene/frog.tscn<>uid://cdtkdwmnokiqk::::res://scene/trapped_frog.tscn<>uid://c2mpvy3gk54w7::::res://scene/platform_tile.tscn<>uid://ccxpqadmj1ak7::::res://scene/ground.tscn
-mc.tscn::PackedScene::7144275425190240366::1737929647::0::1::::<><>::res://scripts/character_body_2d_2.gd<>uid://dpcvo346vywc6::::res://scene/blue_bubble.tscn<>uid://b8avqdtkmk26n::::res://sprites/jimin Assets/FoxBubbleStart.PNG<>uid://bxjwpkx5inpvg::::res://Sounds/bubble spawn v1.0.wav<>uid://kvwamdq3lmrl::::res://Sounds/fox jump.wav
-platform_tile.tscn::PackedScene::6693662239327410000::1737929648::0::1::::<><>::res://scripts/platform_tile.gd<>uid://n0u3bbdqmerh::::res://sprites/pipe.png
+main.tscn::PackedScene::6851060213090814164::1737929834::0::1::::<><>::uid://c810f4moc4l47::::res://scene/mc.tscn<>uid://pyxumq7sscb7::::res://scene/frog.tscn<>uid://cdtkdwmnokiqk::::res://scene/trapped_frog.tscn<>uid://c2mpvy3gk54w7::::res://scene/platform_tile.tscn<>uid://ccxpqadmj1ak7::::res://scene/ground.tscn
+mc.tscn::PackedScene::7144275425190240366::1737929834::0::1::::<><>::res://scripts/character_body_2d_2.gd<>uid://dpcvo346vywc6::::res://scene/blue_bubble.tscn<>uid://b8avqdtkmk26n::::res://sprites/jimin Assets/FoxBubbleStart.PNG<>uid://bxjwpkx5inpvg::::res://Sounds/bubble spawn v1.0.wav<>uid://kvwamdq3lmrl::::res://Sounds/fox jump.wav
+platform_tile.tscn::PackedScene::6693662239327410000::1737929834::0::1::::<><>::res://scripts/platform_tile.gd<>uid://n0u3bbdqmerh::::res://sprites/pipe.png
 popped_bad.tscn::PackedScene::6316774169442424361::1737928938::0::1::::<><>::uid://q3k8ep3g3hqb::::res://sprites/icon.svg<>res://scripts/popped_bad.gd<>uid://clycxj3shlrqn::::res://Sounds/fox bubbled enemy jump.wav
 trapped_bird.tscn::PackedScene::7427777030245549682::1737928621::0::1::::<><>::res://scripts/trapped_bad.gd<>uid://caiefa3x2h8jc::::res://sprites/jimin Assets/BirdBubble.png<>uid://clycxj3shlrqn::::res://Sounds/fox bubbled enemy jump.wav
 trapped_crab.tscn::PackedScene::8765389745951005580::1737928621::0::1::::<><>::res://scripts/trapped_bad.gd<>uid://crcdmkrg5i5j3::::res://sprites/jimin Assets/CrabBubbled.png<>uid://clycxj3shlrqn::::res://Sounds/fox bubbled enemy jump.wav
 trapped_frog.tscn::PackedScene::5023244777597942554::1737928621::0::1::::<><>::res://scripts/trapped_bad.gd<>uid://bcw08jssypsy6::::res://sprites/jimin Assets/FrogBubbled.png<>uid://clycxj3shlrqn::::res://Sounds/fox bubbled enemy jump.wav
-trapped_waterbug.tscn::PackedScene::2396650183373849055::1737929648::0::1::::<><>::res://scripts/waterbug.gd<>uid://djjyjvhenuc1r::::res://sprites/jimin Assets/WaterBugBubbled.png<>uid://clycxj3shlrqn::::res://Sounds/fox bubbled enemy jump.wav
-waterbug.tscn::PackedScene::2081665615393545914::1737929655::0::1::::<><>::res://scripts/waterbug.gd<>uid://dq8pl05fs0e3b::::res://sprites/jimin Assets/WaterBug.PNG
-win_loss_canvas_layer.tscn::PackedScene::5724704231992143483::1737928935::0::1::::<><>::res://scripts/win_loss_canvas_layer.gd
-::res://scripts/::1737929642
+trapped_waterbug.tscn::PackedScene::2396650183373849055::1737929834::0::1::::<><>::res://scripts/waterbug.gd<>uid://djjyjvhenuc1r::::res://sprites/jimin Assets/WaterBugBubbled.png<>uid://clycxj3shlrqn::::res://Sounds/fox bubbled enemy jump.wav
+waterbug.tscn::PackedScene::2081665615393545914::1737929834::0::1::::<><>::res://scripts/waterbug.gd<>uid://dq8pl05fs0e3b::::res://sprites/jimin Assets/WaterBug.PNG
+win_loss_canvas_layer.tscn::PackedScene::5724704231992143483::1737931366::0::1::::<><>::res://scripts/win_loss_canvas_layer.gd
+::res://scripts/::1737931366
 bird.gd::GDScript::-1::1737928621::0::1::::<>Node2D<>::
 blue_bubble.gd::GDScript::-1::1737928839::0::1::::<>CharacterBody2D<>::
 camera_2d.gd::GDScript::-1::1737855447::0::1::::<>RefCounted<>::
@@ -39,8 +39,8 @@ ground.gd::GDScript::-1::1737855447::0::1::::<>StaticBody2D<>::
 platform_tile.gd::GDScript::-1::1737928576::0::1::::<>Node2D<>::
 popped_bad.gd::GDScript::-1::1737928621::0::1::::<>CharacterBody2D<>::
 trapped_bad.gd::GDScript::-1::1737928621::0::1::::<>Node2D<>::
-waterbug.gd::GDScript::-1::1737929642::0::1::::<>Node2D<>::
-win_loss_canvas_layer.gd::GDScript::-1::1737928621::0::1::::<>CanvasLayer<>::
+waterbug.gd::GDScript::-1::1737929834::0::1::::<>Node2D<>::
+win_loss_canvas_layer.gd::GDScript::-1::1737931366::0::1::::<>CanvasLayer<>::
 ::res://Sounds/::1737929275
 bubble pop.wav::AudioStreamWAV::7164675630448939517::1737846644::1737929275::1::::<><>::
 bubble spawn v1.0.wav::AudioStreamWAV::4020706610042104948::1737838712::1737929275::1::::<><>::

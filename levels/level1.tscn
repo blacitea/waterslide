@@ -15,7 +15,7 @@
 [node name="Level1" type="Node2D"]
 
 [node name="fox" parent="." instance=ExtResource("3_trnjk")]
-position = Vector2(-23352, -888)
+position = Vector2(-23344, -1168)
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("4_ar5nb")]
 position = Vector2(-1464, 568)
