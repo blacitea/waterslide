@@ -13,8 +13,10 @@ func _on_area_2d_body_entered(body):
 		#queue_free()
 
 func _handle_hit(body):
+	print("hit enemy");
 	var hit_enemy = hit_enemy_scene.instantiate()
 	hit_enemy.global_position = global_position + Vector2(10, -50)
+	print(hit_enemy);
 	var parent = get_parent()
 	var my_index = get_index()
 	parent.add_child(hit_enemy)
@@ -22,6 +24,6 @@ func _handle_hit(body):
 	queue_free()
 	
 func _slow_mc(body):
-	body.velocity.x = 300
+	body.velocity.x += 500
 	
 	
