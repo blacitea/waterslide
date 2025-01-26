@@ -4,3 +4,7 @@ res://scene/blue_bubble.tscn
 res://scripts/blue_bubble.gd
 res://scene/mc.tscn
 res://scripts/character_body_2d_2.gd
+res://scene/bad.tscn
+res://scripts/bad.gd
+res://scene/trapped_bad.tscn
+res://scene/ground.tscn

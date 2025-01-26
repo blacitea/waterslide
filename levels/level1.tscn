@@ -53,22 +53,22 @@ position = Vector2(-17520, -1048)
 position = Vector2(-16672, -1296)
 
 [node name="enemy 4" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-14848, -1112)
+position = Vector2(-14328, -536)
 
 [node name="enemy 5" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-12872, -1240)
+position = Vector2(-10696, -504)
 
 [node name="enemy 6" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-11312, -1304)
+position = Vector2(-9136, -568)
 
 [node name="enemy 7" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-9656, -1616)
+position = Vector2(-9136, -1040)
 
 [node name="enemy 8" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-8432, -1816)
+position = Vector2(-6736, -568)
 
 [node name="enemy 9" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-7064, -1488)
+position = Vector2(-5368, -240)
 
 [node name="enemy 10" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-7424, -840)
+position = Vector2(-6248, -168)

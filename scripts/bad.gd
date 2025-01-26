@@ -14,7 +14,7 @@ func _on_area_2d_body_entered(body):
 
 func _handle_hit(body):
 	var hit_enemy = hit_enemy_scene.instantiate()
-	hit_enemy.global_position = global_position + Vector2(body.velocity.x, -50)
+	hit_enemy.global_position = global_position + Vector2(10, -50)
 	var parent = get_parent()
 	var my_index = get_index()
 	parent.add_child(hit_enemy)
