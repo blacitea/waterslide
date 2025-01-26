@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://bo4ibya0uy6gx"]
+[gd_scene load_steps=10 format=3 uid="uid://bo4ibya0uy6gx"]
 
 [ext_resource type="PackedScene" uid="uid://c810f4moc4l47" path="res://scene/mc.tscn" id="3_trnjk"]
 [ext_resource type="PackedScene" uid="uid://dpcvo346vywc6" path="res://scene/blue_bubble.tscn" id="4_ar5nb"]
@@ -6,11 +6,14 @@
 [ext_resource type="PackedScene" uid="uid://pyxumq7sscb7" path="res://scene/frog.tscn" id="5_c6xfw"]
 [ext_resource type="PackedScene" uid="uid://dulag31gm7pdo" path="res://scene/large_ground.tscn" id="5_t0ame"]
 [ext_resource type="PackedScene" uid="uid://nllgl64knv6f" path="res://scene/finish_line.tscn" id="6_b47d7"]
+[ext_resource type="PackedScene" uid="uid://r4l7yf4aoquh" path="res://scene/bird.tscn" id="7_tl5c1"]
+[ext_resource type="PackedScene" uid="uid://ndp5kfj4cftk" path="res://scene/crab.tscn" id="8_wdado"]
+[ext_resource type="PackedScene" uid="uid://4wmy1g7dm23g" path="res://scene/waterbug.tscn" id="9_3b12v"]
 
 [node name="Level1" type="Node2D"]
 
 [node name="fox" parent="." instance=ExtResource("3_trnjk")]
-position = Vector2(-23368, -944)
+position = Vector2(-23352, -888)
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("4_ar5nb")]
 position = Vector2(-1464, 568)
@@ -46,34 +49,28 @@ position = Vector2(1528, 1440)
 scale = Vector2(11.9706, 1)
 
 [node name="enemy 1" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-21496, -912)
-
-[node name="enemy 2" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-17520, -1048)
+position = Vector2(-21496, -880)
 
 [node name="enemy 3" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-16672, -1296)
+position = Vector2(-16920, -1152)
 
 [node name="enemy 4" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-14328, -536)
+position = Vector2(-14880, -616)
 
 [node name="enemy 5" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-10696, -504)
-
-[node name="enemy 6" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-9136, -568)
+position = Vector2(-10760, -448)
 
 [node name="enemy 7" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-8488, -120)
+position = Vector2(-8728, -64)
 
 [node name="enemy 8" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-7160, -152)
+position = Vector2(-7224, -64)
 
 [node name="enemy 9" parent="." instance=ExtResource("5_c6xfw")]
 position = Vector2(-4544, -152)
 
 [node name="enemy 10" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-6248, -168)
+position = Vector2(-6232, -72)
 
 [node name="large_ground" parent="." instance=ExtResource("5_t0ame")]
 position = Vector2(-21312, 304)
@@ -168,20 +165,11 @@ position = Vector2(-6904, -6328)
 [node name="enemy 15" parent="." instance=ExtResource("5_c6xfw")]
 position = Vector2(-1544, -6376)
 
-[node name="enemy 16" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-20376, -1216)
-
 [node name="enemy 17" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-21216, -72)
-
-[node name="enemy 18" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-16432, -96)
-
-[node name="enemy 19" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-10352, 744)
+position = Vector2(-21328, -16)
 
 [node name="enemy 20" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-7792, 408)
+position = Vector2(-7816, 440)
 
 [node name="enemy 21" parent="." instance=ExtResource("5_c6xfw")]
 position = Vector2(-904, 1304)
@@ -231,45 +219,6 @@ position = Vector2(10080, 5640)
 [node name="enemy 36" parent="." instance=ExtResource("5_c6xfw")]
 position = Vector2(12592, 5640)
 
-[node name="enemy 37" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(14304, 5640)
-
-[node name="enemy 38" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(16256, 5608)
-
-[node name="enemy 39" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(17864, 5592)
-
-[node name="enemy 40" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(12648, 3640)
-
-[node name="enemy 41" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(10864, -712)
-
-[node name="enemy 42" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(16800, -688)
-
-[node name="enemy 43" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(1336, -1768)
-
-[node name="enemy 44" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(2656, -1728)
-
-[node name="enemy 45" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-11648, 720)
-
-[node name="enemy 46" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-9360, 720)
-
-[node name="enemy 47" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-7104, 776)
-
-[node name="enemy 48" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-5856, 768)
-
-[node name="enemy 49" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-3064, 792)
-
 [node name="platform23" parent="." instance=ExtResource("4_cuxy1")]
 position = Vector2(15072, 4176)
 scale = Vector2(16.6906, 1)
@@ -279,3 +228,57 @@ position = Vector2(19928, 1480)
 
 [node name="finish_line2" parent="." instance=ExtResource("6_b47d7")]
 position = Vector2(19864, -7264)
+
+[node name="bird" parent="." instance=ExtResource("7_tl5c1")]
+position = Vector2(-20760, -1176)
+
+[node name="crab" parent="." instance=ExtResource("8_wdado")]
+position = Vector2(-20168, -8)
+
+[node name="waterbug" parent="." instance=ExtResource("9_3b12v")]
+position = Vector2(-18832, -1144)
+
+[node name="waterbug2" parent="." instance=ExtResource("9_3b12v")]
+position = Vector2(-18200, -872)
+
+[node name="bird2" parent="." instance=ExtResource("7_tl5c1")]
+position = Vector2(-17448, -32)
+
+[node name="bird3" parent="." instance=ExtResource("7_tl5c1")]
+position = Vector2(-13304, -3096)
+
+[node name="crab2" parent="." instance=ExtResource("8_wdado")]
+position = Vector2(-13008, -448)
+
+[node name="crab3" parent="." instance=ExtResource("8_wdado")]
+position = Vector2(-12328, 808)
+
+[node name="bird4" parent="." instance=ExtResource("7_tl5c1")]
+position = Vector2(-10072, 792)
+
+[node name="waterbug3" parent="." instance=ExtResource("9_3b12v")]
+position = Vector2(-9024, 816)
+
+[node name="waterbug4" parent="." instance=ExtResource("9_3b12v")]
+position = Vector2(-4944, -56)
+
+[node name="waterbug5" parent="." instance=ExtResource("9_3b12v")]
+position = Vector2(-3528, 808)
+
+[node name="waterbug6" parent="." instance=ExtResource("9_3b12v")]
+position = Vector2(-2896, -2608)
+
+[node name="crab4" parent="." instance=ExtResource("8_wdado")]
+position = Vector2(-4912, -3464)
+
+[node name="crab5" parent="." instance=ExtResource("8_wdado")]
+position = Vector2(-3328, -6256)
+
+[node name="crab6" parent="." instance=ExtResource("8_wdado")]
+position = Vector2(-4496, -7976)
+
+[node name="bird5" parent="." instance=ExtResource("7_tl5c1")]
+position = Vector2(-1400, -7992)
+
+[node name="bird6" parent="." instance=ExtResource("7_tl5c1")]
+position = Vector2(1888, -7984)
