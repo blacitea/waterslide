@@ -1,10 +1,2 @@
 res://scene/mc.tscn
 res://scripts/character_body_2d_2.gd
-res://scene/main.tscn
-res://levels/level1.tscn
-res://scene/blue_bubble.tscn
-res://scene/bad.tscn
-res://scene/trapped_bad.tscn
-res://scene/platform_tile.tscn
-res://scene/group_tile.tscn
-res://scene/ground.tscn

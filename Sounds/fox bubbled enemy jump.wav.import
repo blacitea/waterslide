@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cx1jjne67l4fs"
+path="res://.godot/imported/fox bubbled enemy jump.wav-277a6535b03ed18c1320e287d6ad6172.sample"
+
+[deps]
+
+source_file="res://Sounds/fox bubbled enemy jump.wav"
+dest_files=["res://.godot/imported/fox bubbled enemy jump.wav-277a6535b03ed18c1320e287d6ad6172.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

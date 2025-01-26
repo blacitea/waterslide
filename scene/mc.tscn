@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://dpcvo346vywc6" path="res://scene/blue_bubble.tscn" id="2_gpaom"]
 [ext_resource type="Texture2D" uid="uid://b853afhmqsg0r" path="res://sprites/FOX walk 1.png" id="3_j8lsq"]
 [ext_resource type="AudioStream" uid="uid://bg4ljqxvrwnum" path="res://Sounds/bubble spawn v1.0.wav" id="4_efadk"]
-[ext_resource type="AudioStream" uid="uid://uxg7oryv8phd" path="res://Sounds/fox jump.wav" id="5_v7cas"]
+[ext_resource type="AudioStream" uid="uid://dvlhgrg83aavm" path="res://Sounds/fox jump.wav" id="5_v7cas"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7iks2"]
 size = Vector2(263.608, 162.409)
