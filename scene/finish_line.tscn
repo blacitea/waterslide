@@ -1,0 +1,101 @@
+[gd_scene load_steps=2 format=3 uid="uid://nllgl64knv6f"]
+
+[ext_resource type="PackedScene" uid="uid://dt4i0fjxo3opr" path="res://scene/goal.tscn" id="1_3s8aw"]
+
+[node name="finish_line" type="Node2D"]
+
+[node name="goal" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, 40)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal2" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, -688)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal3" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, -320)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal4" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, -1056)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal5" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, -1784)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal6" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, -1416)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal7" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, -2144)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal8" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, -2872)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal9" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, -2504)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal10" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, -3240)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal11" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, -3968)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal12" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, -3600)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal13" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, 4416)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal14" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, 3688)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal15" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, 4056)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal16" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, 3320)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal17" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, 2592)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal18" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, 2960)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal19" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, 2232)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal20" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, 1504)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal21" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, 1872)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal22" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, 1136)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal23" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, 408)
+scale = Vector2(0.28, 0.920002)
+
+[node name="goal24" parent="." instance=ExtResource("1_3s8aw")]
+position = Vector2(16, 776)
+scale = Vector2(0.28, 0.920002)

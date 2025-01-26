@@ -1,3 +1,5 @@
+res://scene/goal.tscn
+res://scripts/platform_tile.gd
 res://levels/level1.tscn
 res://scene/main.tscn
 res://scene/blue_bubble.tscn
