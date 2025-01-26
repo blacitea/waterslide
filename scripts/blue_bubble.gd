@@ -6,14 +6,15 @@ enum State {
 	FINISHED
 }
 
-@export var horizontal_speed: float = 100.0
-@export var vertical_speed: float = 200.0
-@export var horizontal_distance: float = 200.0
+@export var horizontal_speed: float = 2000.0
+@export var vertical_speed: float = 150.0
+@export var horizontal_distance: float = 300.0
 @onready var bubble_pop = $bubble_pop
 
 var current_state: State = State.MOVING_RIGHT
 var initial_position: Vector2
 var distance_moved: float = 0.0
+var spawn_position: float = 0.0;
 
 func _ready():
 	initial_position = position
@@ -25,6 +26,7 @@ func _ready():
 
 
 func _physics_process(delta):
+	spawn_position = position.y;
 	match current_state:
 		State.MOVING_RIGHT:
 			_move_right(delta)
@@ -47,7 +49,7 @@ func _move_up(delta: float) -> void:
 	velocity.y = -vertical_speed
 	position.y += velocity.y * delta
 	
-	if position.y < -1000:
+	if position.y < spawn_position-1000:
 		current_state = State.FINISHED
 		
 

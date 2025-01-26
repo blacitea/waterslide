@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scripts/blue_bubble.gd" id="1_6d58h"]
 [ext_resource type="Texture2D" uid="uid://buba3vya7dcl5" path="res://sprites/BUBBLE.png" id="1_7r1f7"]
-[ext_resource type="AudioStream" uid="uid://dxlv4cfcw7535" path="res://Sounds/bubble pop.wav" id="2_6h4xl"]
+[ext_resource type="AudioStream" uid="uid://dacvfp7qyv8vh" path="res://Sounds/bubble pop.wav" id="2_6h4xl"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_raljk"]
 radius = 32.9848

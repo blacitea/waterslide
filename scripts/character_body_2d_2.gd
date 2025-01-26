@@ -12,6 +12,7 @@ var can_fall_through = false
 var max_jump_count = 10;
 var jump_count = 0;
 
+
 @export var projectile_scene: PackedScene
 @export var spawn_interval: float = 2.0
 @export var projectile_spawn: Node2D
@@ -68,9 +69,9 @@ func _physics_process(delta):
 			
 	if Input.is_action_pressed("ui_right"):
 		if is_on_floor():
-			if velocity.x < 2000:
+			if velocity.x < 1500:
 			
-				velocity.x += 100;
+				velocity.x += 10;
 
 	if Input.is_action_pressed("ui_left"):
 			if is_on_floor():
