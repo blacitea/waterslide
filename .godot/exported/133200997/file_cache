@@ -1,0 +1,11 @@
+res://levels/level1.tscn::32dafcb9744eb8f94e35814acefc476b::1737871466::res://.godot/exported/133200997/export-b4587a2a7cb4026c0e83dd630b893882-level1.scn
+res://scene/background.tscn::20d160a778ba877d52c0ffe110fb879e::1737839869::res://.godot/exported/133200997/export-87f8cd21488d58b666fda6baa282ac59-background.scn
+res://scene/bad.tscn::37dad29e110b411370ac69af66e1fadd::1737871466::res://.godot/exported/133200997/export-e579286253550e81ec13327ebc1c69aa-bad.scn
+res://scene/blue_bubble.tscn::df07e9d7ddae29fa491c9dd52fda421b::1737871466::res://.godot/exported/133200997/export-3f11ca52455f6244a3637c0fcc5244f0-blue_bubble.scn
+res://scene/ground.tscn::3df002a84c675d24a0a7efbf08d0381b::1737871466::res://.godot/exported/133200997/export-0a2b8cb869ddb490242f6e2d49a313b8-ground.scn
+res://scene/group_tile.tscn::8b84e0b17823984f5aac6713d6b47fb1::1737871466::res://.godot/exported/133200997/export-4493de4c11e7c835dcf5e40892d6dcc5-group_tile.scn
+res://scene/main.tscn::41ece778255dbec345a1edf6efc1fed8::1737871466::res://.godot/exported/133200997/export-fa9c8ff5b16a5ec23280afa6577b07ee-main.scn
+res://scene/mc.tscn::e8524cc2037803a03431e9fa91327267::1737871466::res://.godot/exported/133200997/export-566728dc374f092aab0233aba5e76c82-mc.scn
+res://scene/platform_tile.tscn::5640af078a8d7e78ff37577199af5126::1737871466::res://.godot/exported/133200997/export-819d8b220945308893e225f4c5095525-platform_tile.scn
+res://scene/popped_bad.tscn::8957048947a0f85df8e36a7320fbbce8::1737871466::res://.godot/exported/133200997/export-7baa43bd2243d94f370e1cfc0e996cc5-popped_bad.scn
+res://scene/trapped_bad.tscn::7a4b32fe21d5da6a583878380400119b::1737871466::res://.godot/exported/133200997/export-cc4db4ef846b511269f0904280a311fd-trapped_bad.scn
