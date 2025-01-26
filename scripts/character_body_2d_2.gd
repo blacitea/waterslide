@@ -14,6 +14,7 @@ var can_fall_through = false
 @export var spawn_interval: float = 2.0
 @export var projectile_spawn: Node2D
 @onready var bubble_spawn = $bubbleSpawn
+@onready var mc_jump = $characterJump
 var spawn_timer: float = 0.0
 
 func _ready() -> void:
@@ -55,6 +56,9 @@ func _physics_process(delta):
 	if Input.is_action_pressed("ui_accept"):
 		if is_on_floor():
 			velocity.y = JUMP_FORCE
+			mc_jump.play()
+			await mc_jump.finished
+			
 		if not has_started:
 			has_started = true
 			
