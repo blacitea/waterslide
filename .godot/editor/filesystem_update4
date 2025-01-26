@@ -8,3 +8,5 @@ res://scene/bad.tscn
 res://scripts/bad.gd
 res://scene/trapped_bad.tscn
 res://scene/ground.tscn
+res://scene/large_ground.tscn
+res://scene/platform_tile.tscn

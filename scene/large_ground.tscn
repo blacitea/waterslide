@@ -1,0 +1,68 @@
+[gd_scene load_steps=2 format=3 uid="uid://dulag31gm7pdo"]
+
+[ext_resource type="PackedScene" uid="uid://ccxpqadmj1ak7" path="res://scene/ground.tscn" id="1_fjso0"]
+
+[node name="large_ground" type="Node2D"]
+
+[node name="ground" parent="." instance=ExtResource("1_fjso0")]
+position = Vector2(-96, -112)
+
+[node name="ground2" parent="." instance=ExtResource("1_fjso0")]
+position = Vector2(-608, -112)
+
+[node name="ground3" parent="." instance=ExtResource("1_fjso0")]
+position = Vector2(416, -112)
+
+[node name="ground4" parent="." instance=ExtResource("1_fjso0")]
+position = Vector2(928, -112)
+
+[node name="ground5" parent="." instance=ExtResource("1_fjso0")]
+position = Vector2(-1120, -112)
+
+[node name="ground6" parent="." instance=ExtResource("1_fjso0")]
+position = Vector2(-1640, -112)
+
+[node name="ground7" parent="." instance=ExtResource("1_fjso0")]
+position = Vector2(-2160, -112)
+
+[node name="ground8" parent="." instance=ExtResource("1_fjso0")]
+position = Vector2(3504, -112)
+
+[node name="ground9" parent="." instance=ExtResource("1_fjso0")]
+position = Vector2(2992, -112)
+
+[node name="ground10" parent="." instance=ExtResource("1_fjso0")]
+position = Vector2(4016, -112)
+
+[node name="ground11" parent="." instance=ExtResource("1_fjso0")]
+position = Vector2(4528, -112)
+
+[node name="ground12" parent="." instance=ExtResource("1_fjso0")]
+position = Vector2(2480, -112)
+
+[node name="ground13" parent="." instance=ExtResource("1_fjso0")]
+position = Vector2(1960, -112)
+
+[node name="ground14" parent="." instance=ExtResource("1_fjso0")]
+position = Vector2(1440, -112)
+
+[node name="ground15" parent="." instance=ExtResource("1_fjso0")]
+position = Vector2(7112, -112)
+
+[node name="ground16" parent="." instance=ExtResource("1_fjso0")]
+position = Vector2(6600, -112)
+
+[node name="ground17" parent="." instance=ExtResource("1_fjso0")]
+position = Vector2(7624, -112)
+
+[node name="ground18" parent="." instance=ExtResource("1_fjso0")]
+position = Vector2(8136, -112)
+
+[node name="ground19" parent="." instance=ExtResource("1_fjso0")]
+position = Vector2(6088, -112)
+
+[node name="ground20" parent="." instance=ExtResource("1_fjso0")]
+position = Vector2(5568, -112)
+
+[node name="ground21" parent="." instance=ExtResource("1_fjso0")]
+position = Vector2(5048, -112)

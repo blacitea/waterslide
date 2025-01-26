@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://n0u3bbdqmerh" path="res://sprites/pipe.png" id="1_11raf"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_deqo4"]
-size = Vector2(607.154, 23.3751)
+size = Vector2(623.577, 27.6875)
 
 [node name="platform" type="StaticBody2D"]
 position = Vector2(3288, -112)
@@ -17,7 +17,7 @@ scale = Vector2(1.51193, 0.247527)
 texture = ExtResource("1_11raf")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(7.62939e-05, 0)
+position = Vector2(-8.21143, 2.15623)
 shape = SubResource("RectangleShape2D_deqo4")
 one_way_collision = true
 debug_color = Color(0.183095, 0.583418, 0.73651, 0.42)

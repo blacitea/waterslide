@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://bo4ibya0uy6gx"]
+[gd_scene load_steps=6 format=3 uid="uid://bo4ibya0uy6gx"]
 
 [ext_resource type="PackedScene" uid="uid://c810f4moc4l47" path="res://scene/mc.tscn" id="3_trnjk"]
 [ext_resource type="PackedScene" uid="uid://dpcvo346vywc6" path="res://scene/blue_bubble.tscn" id="4_ar5nb"]
 [ext_resource type="PackedScene" uid="uid://c2mpvy3gk54w7" path="res://scene/platform_tile.tscn" id="4_cuxy1"]
 [ext_resource type="PackedScene" uid="uid://pyxumq7sscb7" path="res://scene/bad.tscn" id="5_c6xfw"]
+[ext_resource type="PackedScene" uid="uid://dulag31gm7pdo" path="res://scene/large_ground.tscn" id="5_t0ame"]
 
 [node name="Level1" type="Node2D"]
 
@@ -36,8 +37,8 @@ position = Vector2(-19696, -816)
 scale = Vector2(11.9706, 1)
 
 [node name="platform6" parent="." instance=ExtResource("4_cuxy1")]
-position = Vector2(14320, 3744)
-scale = Vector2(11.9706, 1)
+position = Vector2(15408, 3720)
+scale = Vector2(15.4506, 1)
 
 [node name="platform7" parent="." instance=ExtResource("4_cuxy1")]
 position = Vector2(1528, 1440)
@@ -72,3 +73,37 @@ position = Vector2(-5368, -240)
 
 [node name="enemy 10" parent="." instance=ExtResource("5_c6xfw")]
 position = Vector2(-6248, -168)
+
+[node name="large_ground" parent="." instance=ExtResource("5_t0ame")]
+position = Vector2(-21312, 304)
+
+[node name="large_ground2" parent="." instance=ExtResource("5_t0ame")]
+position = Vector2(-10760, 1120)
+
+[node name="large_ground3" parent="." instance=ExtResource("5_t0ame")]
+position = Vector2(56, 4088)
+
+[node name="large_ground4" parent="." instance=ExtResource("5_t0ame")]
+position = Vector2(9880, 5784)
+
+[node name="large_ground5" parent="." instance=ExtResource("5_t0ame")]
+position = Vector2(-16184, -7648)
+scale = Vector2(4.28, 1)
+
+[node name="platform8" parent="." instance=ExtResource("4_cuxy1")]
+position = Vector2(-13496, -2904)
+rotation = -0.507492
+scale = Vector2(11.9706, 1)
+
+[node name="platform9" parent="." instance=ExtResource("4_cuxy1")]
+position = Vector2(-4408, -3176)
+rotation = 0.401193
+scale = Vector2(11.9706, 1)
+
+[node name="platform10" parent="." instance=ExtResource("4_cuxy1")]
+position = Vector2(14816, -5264)
+scale = Vector2(16.6906, 1)
+
+[node name="platform11" parent="." instance=ExtResource("4_cuxy1")]
+position = Vector2(14648, -568)
+scale = Vector2(16.6906, 1)
