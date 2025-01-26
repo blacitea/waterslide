@@ -8,3 +8,7 @@ res://scene/finish_line.tscn
 res://scene/trapped_waterbug.tscn
 res://scene/waterbug.tscn
 res://scene/frog.tscn
+res://scene/win_loss_canvas_layer.tscn
+res://scripts/win_loss_canvas_layer.gd
+res://scene/background.tscn
+res://scene/bird.tscn
