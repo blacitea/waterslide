@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://c4ux7wvun56ke"]
+[gd_scene load_steps=6 format=3 uid="uid://c4ux7wvun56ke"]
 
 [ext_resource type="PackedScene" uid="uid://c810f4moc4l47" path="res://scene/mc.tscn" id="1_uan07"]
 [ext_resource type="PackedScene" uid="uid://pyxumq7sscb7" path="res://scene/bad.tscn" id="3_aq8oh"]
 [ext_resource type="PackedScene" uid="uid://cdtkdwmnokiqk" path="res://scene/trapped_bad.tscn" id="4_b8uho"]
 [ext_resource type="PackedScene" uid="uid://c2mpvy3gk54w7" path="res://scene/platform_tile.tscn" id="4_ctfxa"]
+[ext_resource type="PackedScene" uid="uid://ccxpqadmj1ak7" path="res://scene/ground.tscn" id="5_fsumo"]
 
 [node name="Main" type="Node2D"]
 position = Vector2(-543, -117)
@@ -53,3 +54,36 @@ position = Vector2(1199.13, -89.8479)
 
 [node name="platform5" parent="." instance=ExtResource("4_ctfxa")]
 position = Vector2(1013.41, 173.122)
+
+[node name="ground" parent="." instance=ExtResource("5_fsumo")]
+position = Vector2(134.824, 558.81)
+
+[node name="ground2" parent="." instance=ExtResource("5_fsumo")]
+position = Vector2(634.833, 552.966)
+
+[node name="ground3" parent="." instance=ExtResource("5_fsumo")]
+position = Vector2(1070.55, 547.123)
+
+[node name="ground4" parent="." instance=ExtResource("5_fsumo")]
+position = Vector2(1549.13, 547.123)
+
+[node name="ground5" parent="." instance=ExtResource("5_fsumo")]
+position = Vector2(2020.57, 547.123)
+
+[node name="ground6" parent="." instance=ExtResource("5_fsumo")]
+position = Vector2(2456.29, 547.123)
+
+[node name="ground7" parent="." instance=ExtResource("5_fsumo")]
+position = Vector2(2949.16, 552.966)
+
+[node name="ground8" parent="." instance=ExtResource("5_fsumo")]
+position = Vector2(3420.6, 558.81)
+
+[node name="ground9" parent="." instance=ExtResource("5_fsumo")]
+position = Vector2(3927.75, 564.654)
+
+[node name="ground10" parent="." instance=ExtResource("5_fsumo")]
+position = Vector2(4392.04, 564.654)
+
+[node name="ground11" parent="." instance=ExtResource("5_fsumo")]
+position = Vector2(4849.19, 564.654)

@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://pyxumq7sscb7"]
 
 [ext_resource type="Texture2D" uid="uid://cl4rfc05d8r8h" path="res://sprites/traffic cop.png" id="1_ib371"]
-[ext_resource type="Script" path="res://bad.gd" id="1_k885w"]
+[ext_resource type="Script" path="res://scripts/bad.gd" id="1_k885w"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yixas"]
 size = Vector2(105.355, 243.2)

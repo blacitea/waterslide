@@ -12,3 +12,6 @@ res://scripts/camera_2d.gd
 res://bad.gd
 res://scene/trapped_bad.tscn
 res://scene/trapped_bad.gd
+res://scripts/platform_tile.gd
+res://scene/group_tile.tscn
+res://scene/ground.tscn
