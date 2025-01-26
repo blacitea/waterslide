@@ -1,9 +1,1 @@
-res://levels/level1.tscn
-res://scene/platform_tile.tscn
-res://scene/main.tscn
-res://scene/mc.tscn
-res://scripts/character_body_2d_2.gd
-res://scene/bad.tscn
-res://scene/platforms.tscn
-res://scene/blue_bubble.tscn
-res://scripts/blue_bubble.gd
+res://scene/win_loss_canvas_layer.gd
