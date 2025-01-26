@@ -48,30 +48,6 @@ scale = Vector2(15.4506, 1)
 position = Vector2(1528, 1440)
 scale = Vector2(11.9706, 1)
 
-[node name="enemy 1" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-21496, -880)
-
-[node name="enemy 3" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-16920, -1152)
-
-[node name="enemy 4" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-14880, -616)
-
-[node name="enemy 5" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-10760, -448)
-
-[node name="enemy 7" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-8728, -64)
-
-[node name="enemy 8" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-7224, -64)
-
-[node name="enemy 9" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-4544, -152)
-
-[node name="enemy 10" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-6232, -72)
-
 [node name="large_ground" parent="." instance=ExtResource("5_t0ame")]
 position = Vector2(-21312, 304)
 
@@ -150,75 +126,6 @@ scale = Vector2(11.9706, 1)
 position = Vector2(1008, -1640)
 scale = Vector2(11.9706, 1)
 
-[node name="enemy 11" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-720, -1792)
-
-[node name="enemy 12" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-5704, -3888)
-
-[node name="enemy 13" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-3520, -2928)
-
-[node name="enemy 14" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-6904, -6328)
-
-[node name="enemy 15" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-1544, -6376)
-
-[node name="enemy 17" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-21328, -16)
-
-[node name="enemy 20" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-7816, 440)
-
-[node name="enemy 21" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-904, 1304)
-
-[node name="enemy 22" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(1744, 1720)
-
-[node name="enemy 23" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(3024, 2152)
-
-[node name="enemy 24" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(3920, 1304)
-
-[node name="enemy 25" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(-8, 1736)
-
-[node name="enemy 26" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(5760, 1568)
-
-[node name="enemy 27" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(7760, 2392)
-
-[node name="enemy 28" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(9208, 3032)
-
-[node name="enemy 29" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(11776, 3592)
-
-[node name="enemy 30" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(13424, 3632)
-
-[node name="enemy 31" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(14544, 3608)
-
-[node name="enemy 32" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(15264, 3616)
-
-[node name="enemy 33" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(16352, 3584)
-
-[node name="enemy 34" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(17008, 3584)
-
-[node name="enemy 35" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(10080, 5640)
-
-[node name="enemy 36" parent="." instance=ExtResource("5_c6xfw")]
-position = Vector2(12592, 5640)
-
 [node name="platform23" parent="." instance=ExtResource("4_cuxy1")]
 position = Vector2(15072, 4176)
 scale = Vector2(16.6906, 1)
@@ -230,7 +137,7 @@ position = Vector2(19928, 1480)
 position = Vector2(19864, -7264)
 
 [node name="bird" parent="." instance=ExtResource("7_tl5c1")]
-position = Vector2(-20760, -1176)
+position = Vector2(-20752, -1160)
 
 [node name="crab" parent="." instance=ExtResource("8_wdado")]
 position = Vector2(-20168, -8)
@@ -275,10 +182,13 @@ position = Vector2(-4912, -3464)
 position = Vector2(-3328, -6256)
 
 [node name="crab6" parent="." instance=ExtResource("8_wdado")]
-position = Vector2(-4496, -7976)
+position = Vector2(-4544, -7952)
 
 [node name="bird5" parent="." instance=ExtResource("7_tl5c1")]
 position = Vector2(-1400, -7992)
 
 [node name="bird6" parent="." instance=ExtResource("7_tl5c1")]
 position = Vector2(1888, -7984)
+
+[node name="frog" parent="." instance=ExtResource("5_c6xfw")]
+position = Vector2(-20328, -864)

@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://4wmy1g7dm23g"]
 
-[ext_resource type="Script" path="res://scripts/frog.gd" id="1_t003d"]
+[ext_resource type="Script" path="res://scene/waterbug.gd" id="1_bbcpe"]
 [ext_resource type="Texture2D" uid="uid://dq8pl05fs0e3b" path="res://sprites/jimin Assets/WaterBug.PNG" id="2_if16y"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_x7884"]
@@ -11,7 +11,7 @@ process_mode = 3
 position = Vector2(0, -1.90735e-06)
 rotation = -3.14159
 scale = Vector2(0.910444, -0.642495)
-script = ExtResource("1_t003d")
+script = ExtResource("1_bbcpe")
 
 [node name="Area2D" type="Area2D" parent="."]
 position = Vector2(-0.000267982, 0)
