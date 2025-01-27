@@ -1,57 +1,59 @@
 extends CharacterBody2D
 
 enum State {
-	MOVING_RIGHT,
-	MOVING_UP,
+	SHOOTING,
+	RISING,
 	FINISHED
 }
 
-@export var horizontal_speed: float = 2000.0
-@export var vertical_speed: float = 150.0
+var base_velocity := Vector2.ZERO
+var additional_velocity := Vector2.ZERO
+var displacement := Vector2.ZERO
+var shooting_velocity: Vector2 = Vector2.RIGHT * 1000.0
+@export var rising_speed: float = 150.0
 @export var horizontal_distance: float = 300.0
 @onready var bubble_pop = $bubble_pop
 
-var current_state: State = State.MOVING_RIGHT
+var current_state: State = State.SHOOTING
 var initial_position: Vector2
-var distance_moved: float = 0.0
 var spawn_position: float = 0.0;
 
 func _ready():
 	initial_position = position
-	velocity = Vector2.ZERO
-	distance_moved = 0.0
+	additional_velocity = Vector2.ZERO
 	add_to_group("projectile")
 	collision_layer = 1
 	collision_mask = 1
+	transition_to_state(State.SHOOTING)
 
 
-func _physics_process(delta):
-	spawn_position = position.y;
-	match current_state:
-		State.MOVING_RIGHT:
-			_move_right(delta)
-		State.MOVING_UP:
-			_move_up(delta)
+func transition_to_state(new_state: State) -> void:
+	match new_state:
+		State.SHOOTING:
+			additional_velocity = shooting_velocity
+		State.RISING:
+			additional_velocity.x = 0
+			additional_velocity.y = -rising_speed
+			base_velocity *= 0.5
 		State.FINISHED:
 			queue_free()
-
-func _move_right(delta: float) -> void:
-	if distance_moved < horizontal_distance:
-		var movement = horizontal_speed * delta
-		velocity.x = horizontal_speed
-		position.x += movement
-		distance_moved += movement
-	else:
-		current_state = State.MOVING_UP
-		velocity.x = 0
-
-func _move_up(delta: float) -> void:
-	velocity.y = -vertical_speed
-	position.y += velocity.y * delta
 	
-	if position.y < spawn_position-1000:
-		current_state = State.FINISHED
-		
+	current_state = new_state
+
+func _physics_process(delta):
+	match current_state:
+		State.SHOOTING:
+			if displacement.x > horizontal_distance:
+				transition_to_state(State.RISING)
+		State.RISING:
+			if displacement.y < -1000:
+				transition_to_state(State.SHOOTING)
+		State.FINISHED:
+			pass
+	
+	var dx : Vector2 = (base_velocity + additional_velocity) * delta
+	position += dx
+	displacement += dx
 
 
 func _on_area_2d_body_entered(body):

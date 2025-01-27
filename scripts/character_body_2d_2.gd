@@ -11,7 +11,7 @@ var is_on_platform = false
 var can_fall_through = false
 var max_jump_count = 10;
 var jump_count = 0;
-
+var previous_position = Vector2.ZERO
 
 @export var projectile_scene: PackedScene
 @export var spawn_interval: float = 2.0
@@ -22,7 +22,8 @@ var jump_count = 0;
 var spawn_timer: float = 0.0
 
 func _ready() -> void:
-		add_to_group("maincharacter")
+	previous_position = global_position
+	add_to_group("maincharacter")
 		##character.floor_snap_length = 10000.0;
 		
 
@@ -34,13 +35,26 @@ func _process(delta: float) -> void:
 		##	spawn_projectile()
 		##	spawn_timer = 0.0
 
-func spawn_projectile() -> void:
+func spawn_projectile(delta: float) -> void:
 	var projectile = projectile_scene.instantiate()
-	##projectile.collision_layer = 0  # Disable collisions initially
 	get_parent().add_child(projectile)
+	##projectile.collision_layer = 0  # Disable collisions initially
+	
 	projectile.global_position = projectile_spawn.global_position
-	projectile.velocity = Vector2.ZERO
+	projectile.base_velocity = (global_position - previous_position) / delta
+	var shoot_direction := Vector2.RIGHT
+	var displacement = global_position - previous_position
+	if displacement.length_squared() > 0: # shoot in direction that you are moving
+		shoot_direction = displacement.normalized()
+	
+	projectile.shooting_velocity = shoot_direction * 1000
+	
 	bubble_spawn.play()
+	projectile.horizontal_distance = velocity.x / 2
+	
+	
+	
+	projectile.transition_to_state(projectile.State.SHOOTING)
 	
 	var projectile_ref = weakref(projectile)
 	
@@ -55,7 +69,7 @@ func _physics_process(delta):
 		velocity.y += gravity * delta
 		
 	if Input.is_action_just_pressed("shoot_bubble"):
-		spawn_projectile();
+		spawn_projectile(delta);
 	
 	if Input.is_action_pressed("ui_accept"):
 		if is_on_floor() && get_floor_normal().x >= 0:
@@ -97,10 +111,12 @@ func _physics_process(delta):
 
 	velocity.x = clamp(velocity.x,300,2000);
 	#velocity.y = clamp(velocity.y,300,2000);
-		
+	
+	previous_position = global_position
 	move_and_slide()
 	_update_platform_status()
 	_update_sprite_state(delta)
+	
 	#print("Normal:", get_floor_normal());
 	##print("Angle:", get_floor_angle());
 	

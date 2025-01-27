@@ -1,86 +1,86 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1737931405
-export_presets.cfg::TextFile::-1::1737929973::0::1::::<><>::
-index.apple-touch-icon.png::CompressedTexture2D::288549800733144101::1737919105::1737929272::1::::<><>::
-index.icon.png::CompressedTexture2D::6270198762000377496::1737919105::1737929272::1::::<><>::
-index.png::CompressedTexture2D::8949494261226292496::1737919105::1737929273::1::::<><>::
-README.md::TextFile::-1::1737788366::0::1::::<><>::
-::res://levels/::1737929834
-level1.tscn::PackedScene::3429420232953319679::1737929834::0::1::::<><>::uid://c810f4moc4l47::::res://scene/mc.tscn<>uid://dpcvo346vywc6::::res://scene/blue_bubble.tscn<>uid://c2mpvy3gk54w7::::res://scene/platform_tile.tscn<>uid://pyxumq7sscb7::::res://scene/frog.tscn<>uid://dulag31gm7pdo::::res://scene/large_ground.tscn<>uid://nllgl64knv6f::::res://scene/finish_line.tscn<>uid://r4l7yf4aoquh::::res://scene/bird.tscn<>uid://ndp5kfj4cftk::::res://scene/crab.tscn<>uid://4wmy1g7dm23g::::res://scene/waterbug.tscn<>uid://dw5axn44yuqga::::res://scene/trapped_crab.tscn<>uid://cdtkdwmnokiqk::::res://scene/trapped_frog.tscn
-::res://scene/::1737931366
-background.tscn::PackedScene::477824304418036525::1737931366::0::1::::<><>::uid://c1ue4nt0roh7u::::res://sprites/background.jpg
-bird.tscn::PackedScene::1253803598642294079::1737929835::0::1::::<><>::res://scripts/bird.gd<>uid://dkw4fitl1oynd::::res://sprites/jimin Assets/Bird.PNG
-blue_bubble.tscn::PackedScene::8217525036011334891::1737929834::0::1::::<><>::res://scripts/blue_bubble.gd<>uid://buba3vya7dcl5::::res://sprites/BUBBLE.png<>uid://dacvfp7qyv8vh::::res://Sounds/bubble pop.wav
-crab.tscn::PackedScene::919612962670525284::1737928621::0::1::::<><>::res://scripts/crab.gd<>uid://o38r6f6050c6::::res://sprites/jimin Assets/Crab.PNG
-finish_line.tscn::PackedScene::935842351250254431::1737929834::0::1::::<><>::uid://dt4i0fjxo3opr::::res://scene/goal.tscn
-frog.tscn::PackedScene::1103810583855416826::1737929835::0::1::::<><>::res://scripts/frog.gd<>uid://c8l535x3a1eul::::res://sprites/jimin Assets/Frog.PNG
-goal.tscn::PackedScene::8553247693444237223::1737929834::0::1::::<><>::res://scripts/platform_tile.gd<>uid://qboasm20q26y::::res://sprites/GOAL.png
-ground.tscn::PackedScene::4961639075792304660::1737928552::0::1::::<><>::uid://do451dbc2citt::::res://sprites/grass.png<>res://scripts/ground.gd
-group_tile.tscn::PackedScene::977237155186058663::1737867232::0::1::::<><>::uid://n0u3bbdqmerh::::res://sprites/pipe.png
-large_ground.tscn::PackedScene::8585759305006680368::1737928552::0::1::::<><>::uid://ccxpqadmj1ak7::::res://scene/ground.tscn
-main.tscn::PackedScene::6851060213090814164::1737929834::0::1::::<><>::uid://c810f4moc4l47::::res://scene/mc.tscn<>uid://pyxumq7sscb7::::res://scene/frog.tscn<>uid://cdtkdwmnokiqk::::res://scene/trapped_frog.tscn<>uid://c2mpvy3gk54w7::::res://scene/platform_tile.tscn<>uid://ccxpqadmj1ak7::::res://scene/ground.tscn
-mc.tscn::PackedScene::7144275425190240366::1737929834::0::1::::<><>::res://scripts/character_body_2d_2.gd<>uid://dpcvo346vywc6::::res://scene/blue_bubble.tscn<>uid://b8avqdtkmk26n::::res://sprites/jimin Assets/FoxBubbleStart.PNG<>uid://bxjwpkx5inpvg::::res://Sounds/bubble spawn v1.0.wav<>uid://kvwamdq3lmrl::::res://Sounds/fox jump.wav
-platform_tile.tscn::PackedScene::6693662239327410000::1737929834::0::1::::<><>::res://scripts/platform_tile.gd<>uid://n0u3bbdqmerh::::res://sprites/pipe.png
-popped_bad.tscn::PackedScene::6316774169442424361::1737928938::0::1::::<><>::uid://q3k8ep3g3hqb::::res://sprites/icon.svg<>res://scripts/popped_bad.gd<>uid://clycxj3shlrqn::::res://Sounds/fox bubbled enemy jump.wav
-trapped_bird.tscn::PackedScene::7427777030245549682::1737928621::0::1::::<><>::res://scripts/trapped_bad.gd<>uid://caiefa3x2h8jc::::res://sprites/jimin Assets/BirdBubble.png<>uid://clycxj3shlrqn::::res://Sounds/fox bubbled enemy jump.wav
-trapped_crab.tscn::PackedScene::8765389745951005580::1737928621::0::1::::<><>::res://scripts/trapped_bad.gd<>uid://crcdmkrg5i5j3::::res://sprites/jimin Assets/CrabBubbled.png<>uid://clycxj3shlrqn::::res://Sounds/fox bubbled enemy jump.wav
-trapped_frog.tscn::PackedScene::5023244777597942554::1737928621::0::1::::<><>::res://scripts/trapped_bad.gd<>uid://bcw08jssypsy6::::res://sprites/jimin Assets/FrogBubbled.png<>uid://clycxj3shlrqn::::res://Sounds/fox bubbled enemy jump.wav
-trapped_waterbug.tscn::PackedScene::2396650183373849055::1737929834::0::1::::<><>::res://scripts/waterbug.gd<>uid://djjyjvhenuc1r::::res://sprites/jimin Assets/WaterBugBubbled.png<>uid://clycxj3shlrqn::::res://Sounds/fox bubbled enemy jump.wav
-waterbug.tscn::PackedScene::2081665615393545914::1737929834::0::1::::<><>::res://scripts/waterbug.gd<>uid://dq8pl05fs0e3b::::res://sprites/jimin Assets/WaterBug.PNG
-win_loss_canvas_layer.tscn::PackedScene::5724704231992143483::1737931366::0::1::::<><>::res://scripts/win_loss_canvas_layer.gd
-::res://scripts/::1737931366
-bird.gd::GDScript::-1::1737928621::0::1::::<>Node2D<>::
-blue_bubble.gd::GDScript::-1::1737928839::0::1::::<>CharacterBody2D<>::
-camera_2d.gd::GDScript::-1::1737855447::0::1::::<>RefCounted<>::
-character_body_2d_2.gd::GDScript::-1::1737928621::0::1::::<>CharacterBody2D<>::
-crab.gd::GDScript::-1::1737928621::0::1::::<>Node2D<>::
-frog.gd::GDScript::-1::1737928576::0::1::::<>Node2D<>::
-ground.gd::GDScript::-1::1737855447::0::1::::<>StaticBody2D<>::
-platform_tile.gd::GDScript::-1::1737928576::0::1::::<>Node2D<>::
-popped_bad.gd::GDScript::-1::1737928621::0::1::::<>CharacterBody2D<>::
-trapped_bad.gd::GDScript::-1::1737928621::0::1::::<>Node2D<>::
-waterbug.gd::GDScript::-1::1737929834::0::1::::<>Node2D<>::
-win_loss_canvas_layer.gd::GDScript::-1::1737931366::0::1::::<>CanvasLayer<>::
-::res://Sounds/::1737929275
-bubble pop.wav::AudioStreamWAV::7164675630448939517::1737846644::1737929275::1::::<><>::
-bubble spawn v1.0.wav::AudioStreamWAV::4020706610042104948::1737838712::1737929275::1::::<><>::
-fox bubbled enemy jump.wav::AudioStreamWAV::5594626737539657977::1737852758::1737929275::1::::<><>::
-fox hurt.wav::AudioStreamWAV::8008550608451245391::1737850963::1737929275::1::::<><>::
-fox jump.wav::AudioStreamWAV::746576778735887317::1737851508::1737929275::1::::<><>::
-landing splash.wav::AudioStreamWAV::2830877475146143685::1737867632::1737929275::1::::<><>::
-waterfall ost temp.mp3::AudioStreamMP3::4795439829123841259::1737840835::1737929272::1::::<><>::
-::res://sprites/::1737929273
-background.jpg::CompressedTexture2D::6639334226364546000::1737840836::1737929272::1::::<><>::
-BUBBLE.png::CompressedTexture2D::3792313076545687988::1737928668::1737929273::1::::<><>::
-BUBBLEBROWN.png::CompressedTexture2D::2534548369612520159::1737788366::1737929272::1::::<><>::
-FOX airborne.png::CompressedTexture2D::905537363880210601::1737788366::1737929272::1::::<><>::
-FOX walk 1.png::CompressedTexture2D::4766284206165127371::1737788366::1737929272::1::::<><>::
-FOX.png::CompressedTexture2D::5592205058174804812::1737788366::1737929272::1::::<><>::
-GOAL.png::CompressedTexture2D::1125936879080090002::1737922483::1737929272::1::::<><>::
-grass.png::CompressedTexture2D::8203640916545906553::1737850963::1737929272::1::::<><>::
-Ground.png::CompressedTexture2D::1574622323145171721::1737922483::1737929273::1::::<><>::
-GroundSky.png::CompressedTexture2D::7755385526160644279::1737922483::1737929273::1::::<><>::
-icon.svg::CompressedTexture2D::1181490410995503933::1737840836::1737929272::1::::<><>::
-pipe.png::CompressedTexture2D::965328807456900825::1737840836::1737929272::1::::<><>::
-simple64x_tiles6.png::CompressedTexture2D::1342288598155278452::1737840836::1737929272::1::::<><>::
-Sky.png::CompressedTexture2D::7028025769029123869::1737922483::1737929273::1::::<><>::
-traffic cop bubbled.png::CompressedTexture2D::4551155108475761474::1737855387::1737929272::1::::<><>::
-traffic cop.png::CompressedTexture2D::5605826865154046437::1737788366::1737929272::1::::<><>::
-traffic_cop.png::CompressedTexture2D::3057106889632319917::1737840836::1737929272::1::::<><>::
-::res://sprites/jimin Assets/::1737929275
-Bird.PNG::CompressedTexture2D::7908336969881891917::1737925330::1737929274::1::::<><>::
-BirdBubble.png::CompressedTexture2D::4789608230695203712::1737929261::1737929274::1::::<><>::
-Crab.PNG::CompressedTexture2D::1042482044694794855::1737925330::1737929274::1::::<><>::
-CrabBubbled.png::CompressedTexture2D::5970384597054258918::1737929261::1737929274::1::::<><>::
-CrabBubblePop1.PNG::CompressedTexture2D::2702255995528686251::1737925330::1737929274::1::::<><>::
-CrabBubblePop2.PNG::CompressedTexture2D::3909311487967488130::1737925330::1737929274::1::::<><>::
-CrabBubblePop3.PNG::CompressedTexture2D::8096753860092411789::1737925330::1737929274::1::::<><>::
-FoxBubblePop.PNG::CompressedTexture2D::3873213492538860583::1737925330::1737929275::1::::<><>::
-FoxBubbleStart.PNG::CompressedTexture2D::4703956340690893735::1737925330::1737929275::1::::<><>::
-FoxDie.PNG::CompressedTexture2D::3840848301044003936::1737925330::1737929275::1::::<><>::
-FoxJumpStart.PNG::CompressedTexture2D::7625160737714806113::1737925330::1737929275::1::::<><>::
-FoxMidJump.PNG::CompressedTexture2D::8998934093142940780::1737925330::1737929275::1::::<><>::
-Frog.PNG::CompressedTexture2D::7113654487252484307::1737925330::1737929275::1::::<><>::
-FrogBubbled.png::CompressedTexture2D::2573792038943655759::1737929261::1737929275::1::::<><>::
-WaterBug.PNG::CompressedTexture2D::8351339773476350161::1737925330::1737929275::1::::<><>::
-WaterBugBubbled.png::CompressedTexture2D::7811015437583559101::1737929261::1737929274::1::::<><>::
+::res://::1737933137
+export_presets.cfg::TextFile::-1::1737933113::0::1::::<><>::
+index.apple-touch-icon.png::CompressedTexture2D::288549800733144101::1737919548::1737933139::1::::<><>::
+index.icon.png::CompressedTexture2D::6270198762000377496::1737919548::1737933139::1::::<><>::
+index.png::CompressedTexture2D::8949494261226292496::1737919548::1737933139::1::::<><>::
+README.md::TextFile::-1::1737780522::0::1::::<><>::
+::res://levels/::1737933113
+level1.tscn::PackedScene::3429420232953319679::1737933113::0::1::::<><>::uid://c810f4moc4l47::::res://scene/mc.tscn<>uid://dpcvo346vywc6::::res://scene/blue_bubble.tscn<>uid://c2mpvy3gk54w7::::res://scene/platform_tile.tscn<>uid://pyxumq7sscb7::::res://scene/frog.tscn<>uid://dulag31gm7pdo::::res://scene/large_ground.tscn<>uid://nllgl64knv6f::::res://scene/finish_line.tscn<>uid://r4l7yf4aoquh::::res://scene/bird.tscn<>uid://ndp5kfj4cftk::::res://scene/crab.tscn<>uid://4wmy1g7dm23g::::res://scene/waterbug.tscn<>uid://dw5axn44yuqga::::res://scene/trapped_crab.tscn<>uid://cdtkdwmnokiqk::::res://scene/trapped_frog.tscn
+::res://scene/::1737933113
+background.tscn::PackedScene::477824304418036525::1737839949::0::1::::<><>::uid://c1ue4nt0roh7u::::res://sprites/background.jpg
+bird.tscn::PackedScene::1253803598642294079::1737933113::0::1::::<><>::res://scripts/bird.gd<>uid://dkw4fitl1oynd::::res://sprites/jimin Assets/Bird.PNG
+blue_bubble.tscn::PackedScene::8217525036011334891::1737933113::0::1::::<><>::res://scripts/blue_bubble.gd<>uid://buba3vya7dcl5::::res://sprites/BUBBLE.png<>uid://dacvfp7qyv8vh::::res://Sounds/bubble pop.wav
+crab.tscn::PackedScene::919612962670525284::1737933113::0::1::::<><>::res://scripts/crab.gd<>uid://o38r6f6050c6::::res://sprites/jimin Assets/Crab.PNG
+finish_line.tscn::PackedScene::935842351250254431::1737926879::0::1::::<><>::uid://dt4i0fjxo3opr::::res://scene/goal.tscn
+frog.tscn::PackedScene::1103810583855416826::1737933113::0::1::::<><>::res://scripts/frog.gd<>uid://c8l535x3a1eul::::res://sprites/jimin Assets/Frog.PNG
+goal.tscn::PackedScene::8553247693444237223::1737926879::0::1::::<><>::res://scripts/platform_tile.gd<>uid://qboasm20q26y::::res://sprites/GOAL.png
+ground.tscn::PackedScene::4961639075792304660::1737926806::0::1::::<><>::uid://do451dbc2citt::::res://sprites/grass.png<>res://scripts/ground.gd
+group_tile.tscn::PackedScene::977237155186058663::1737919978::0::1::::<><>::uid://n0u3bbdqmerh::::res://sprites/pipe.png
+large_ground.tscn::PackedScene::8585759305006680368::1737926879::0::1::::<><>::uid://ccxpqadmj1ak7::::res://scene/ground.tscn
+main.tscn::PackedScene::6851060213090814164::1737933113::0::1::::<><>::uid://c810f4moc4l47::::res://scene/mc.tscn<>uid://pyxumq7sscb7::::res://scene/frog.tscn<>uid://cdtkdwmnokiqk::::res://scene/trapped_frog.tscn<>uid://c2mpvy3gk54w7::::res://scene/platform_tile.tscn<>uid://ccxpqadmj1ak7::::res://scene/ground.tscn
+mc.tscn::PackedScene::7144275425190240366::1737926879::0::1::::<><>::res://scripts/character_body_2d_2.gd<>uid://dpcvo346vywc6::::res://scene/blue_bubble.tscn<>uid://b8avqdtkmk26n::::res://sprites/jimin Assets/FoxBubbleStart.PNG<>uid://bxjwpkx5inpvg::::res://Sounds/bubble spawn v1.0.wav<>uid://kvwamdq3lmrl::::res://Sounds/fox jump.wav
+platform_tile.tscn::PackedScene::6693662239327410000::1737926879::0::1::::<><>::res://scripts/platform_tile.gd<>uid://n0u3bbdqmerh::::res://sprites/pipe.png
+popped_bad.tscn::PackedScene::6316774169442424361::1737933113::0::1::::<><>::uid://q3k8ep3g3hqb::::res://sprites/icon.svg<>res://scripts/popped_bad.gd<>uid://clycxj3shlrqn::::res://Sounds/fox bubbled enemy jump.wav
+trapped_bird.tscn::PackedScene::7427777030245549682::1737933113::0::1::::<><>::res://scripts/trapped_bad.gd<>uid://caiefa3x2h8jc::::res://sprites/jimin Assets/BirdBubble.png<>uid://clycxj3shlrqn::::res://Sounds/fox bubbled enemy jump.wav
+trapped_crab.tscn::PackedScene::8765389745951005580::1737933113::0::1::::<><>::res://scripts/trapped_bad.gd<>uid://crcdmkrg5i5j3::::res://sprites/jimin Assets/CrabBubbled.png<>uid://clycxj3shlrqn::::res://Sounds/fox bubbled enemy jump.wav
+trapped_frog.tscn::PackedScene::5023244777597942554::1737933113::0::1::::<><>::res://scripts/trapped_bad.gd<>uid://bcw08jssypsy6::::res://sprites/jimin Assets/FrogBubbled.png<>uid://clycxj3shlrqn::::res://Sounds/fox bubbled enemy jump.wav
+trapped_waterbug.tscn::PackedScene::2396650183373849055::1737933113::0::1::::<><>::res://scripts/waterbug.gd<>uid://djjyjvhenuc1r::::res://sprites/jimin Assets/WaterBugBubbled.png<>uid://clycxj3shlrqn::::res://Sounds/fox bubbled enemy jump.wav
+waterbug.tscn::PackedScene::2081665615393545914::1737933113::0::1::::<><>::res://scripts/waterbug.gd<>uid://dq8pl05fs0e3b::::res://sprites/jimin Assets/WaterBug.PNG
+win_loss_canvas_layer.tscn::PackedScene::5724704231992143483::1737933113::0::1::::<><>::res://scripts/win_loss_canvas_layer.gd
+::res://scripts/::1737933113
+bird.gd::GDScript::-1::1737933113::0::1::::<>Node2D<>::
+blue_bubble.gd::GDScript::-1::1737923635::0::1::::<>CharacterBody2D<>::
+camera_2d.gd::GDScript::-1::1737839949::0::1::::<>RefCounted<>::
+character_body_2d_2.gd::GDScript::-1::1737933113::0::1::::<>CharacterBody2D<>::
+crab.gd::GDScript::-1::1737933113::0::1::::<>Node2D<>::
+frog.gd::GDScript::-1::1737933113::0::1::::<>Node2D<>::
+ground.gd::GDScript::-1::1737851305::0::1::::<>StaticBody2D<>::
+platform_tile.gd::GDScript::-1::1737925155::0::1::::<>Node2D<>::
+popped_bad.gd::GDScript::-1::1737933113::0::1::::<>CharacterBody2D<>::
+trapped_bad.gd::GDScript::-1::1737923635::0::1::::<>Node2D<>::
+waterbug.gd::GDScript::-1::1737933113::0::1::::<>Node2D<>::
+win_loss_canvas_layer.gd::GDScript::-1::1737933113::0::1::::<>CanvasLayer<>::
+::res://Sounds/::1737926750
+bubble pop.wav::AudioStreamWAV::7164675630448939517::1737844186::1737933142::1::::<><>::
+bubble spawn v1.0.wav::AudioStreamWAV::4020706610042104948::1737838452::1737933142::1::::<><>::
+fox bubbled enemy jump.wav::AudioStreamWAV::5594626737539657977::1737852793::1737933142::1::::<><>::
+fox hurt.wav::AudioStreamWAV::8008550608451245391::1737850484::1737933142::1::::<><>::
+fox jump.wav::AudioStreamWAV::746576778735887317::1737851136::1737933142::1::::<><>::
+landing splash.wav::AudioStreamWAV::2830877475146143685::1737866673::1737933142::1::::<><>::
+waterfall ost temp.mp3::AudioStreamMP3::4795439829123841259::1737839949::1737933138::1::::<><>::
+::res://sprites/::1737933113
+background.jpg::CompressedTexture2D::6639334226364546000::1737839949::1737933139::1::::<><>::
+BUBBLE.png::CompressedTexture2D::3792313076545687988::1737933113::1737933140::1::::<><>::
+BUBBLEBROWN.png::CompressedTexture2D::2534548369612520159::1737783418::1737933138::1::::<><>::
+FOX airborne.png::CompressedTexture2D::905537363880210601::1737782392::1737933138::1::::<><>::
+FOX walk 1.png::CompressedTexture2D::4766284206165127371::1737782412::1737933138::1::::<><>::
+FOX.png::CompressedTexture2D::5592205058174804812::1737781892::1737933139::1::::<><>::
+GOAL.png::CompressedTexture2D::1125936879080090002::1737920726::1737933138::1::::<><>::
+grass.png::CompressedTexture2D::8203640916545906553::1737851305::1737933139::1::::<><>::
+Ground.png::CompressedTexture2D::1574622323145171721::1737922509::1737933139::1::::<><>::
+GroundSky.png::CompressedTexture2D::7755385526160644279::1737922450::1737933139::1::::<><>::
+icon.svg::CompressedTexture2D::1181490410995503933::1737839949::1737933139::1::::<><>::
+pipe.png::CompressedTexture2D::965328807456900825::1737839949::1737933139::1::::<><>::
+simple64x_tiles6.png::CompressedTexture2D::1342288598155278452::1737839949::1737933139::1::::<><>::
+Sky.png::CompressedTexture2D::7028025769029123869::1737922475::1737933139::1::::<><>::
+traffic cop bubbled.png::CompressedTexture2D::4551155108475761474::1737854930::1737933139::1::::<><>::
+traffic cop.png::CompressedTexture2D::5605826865154046437::1737781892::1737933139::1::::<><>::
+traffic_cop.png::CompressedTexture2D::3057106889632319917::1737839949::1737933139::1::::<><>::
+::res://sprites/jimin Assets/::1737933113
+Bird.PNG::CompressedTexture2D::7908336969881891917::1737924937::1737933140::1::::<><>::
+BirdBubble.png::CompressedTexture2D::4789608230695203712::1737933113::1737933140::1::::<><>::
+Crab.PNG::CompressedTexture2D::1042482044694794855::1737924937::1737933140::1::::<><>::
+CrabBubbled.png::CompressedTexture2D::5970384597054258918::1737933113::1737933140::1::::<><>::
+CrabBubblePop1.PNG::CompressedTexture2D::2702255995528686251::1737924937::1737933141::1::::<><>::
+CrabBubblePop2.PNG::CompressedTexture2D::3909311487967488130::1737924937::1737933141::1::::<><>::
+CrabBubblePop3.PNG::CompressedTexture2D::8096753860092411789::1737924937::1737933141::1::::<><>::
+FoxBubblePop.PNG::CompressedTexture2D::3873213492538860583::1737924937::1737933141::1::::<><>::
+FoxBubbleStart.PNG::CompressedTexture2D::4703956340690893735::1737924937::1737933141::1::::<><>::
+FoxDie.PNG::CompressedTexture2D::3840848301044003936::1737924937::1737933141::1::::<><>::
+FoxJumpStart.PNG::CompressedTexture2D::7625160737714806113::1737924937::1737933141::1::::<><>::
+FoxMidJump.PNG::CompressedTexture2D::8998934093142940780::1737924937::1737933142::1::::<><>::
+Frog.PNG::CompressedTexture2D::7113654487252484307::1737924937::1737933142::1::::<><>::
+FrogBubbled.png::CompressedTexture2D::2573792038943655759::1737933113::1737933142::1::::<><>::
+WaterBug.PNG::CompressedTexture2D::8351339773476350161::1737924937::1737933142::1::::<><>::
+WaterBugBubbled.png::CompressedTexture2D::7811015437583559101::1737933113::1737933140::1::::<><>::

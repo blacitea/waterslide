@@ -9,5 +9,6 @@ res://scene/trapped_waterbug.tscn
 res://scene/waterbug.tscn
 res://scene/frog.tscn
 res://scene/bird.tscn
-res://scripts/win_loss_canvas_layer.gd
 res://scene/win_loss_canvas_layer.tscn
+res://scripts/character_body_2d_2.gd
+res://scripts/blue_bubble.gd
